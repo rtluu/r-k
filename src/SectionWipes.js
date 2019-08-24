@@ -17,7 +17,7 @@ const SectionWipesStyled = styled.div`
     display: block;
     overflow: visible;
     top: 50%;
-    font-size: 80px;
+    font-size: 32px;
   }
 
   .panel.blue {
@@ -43,22 +43,37 @@ const SectionWipes = () => (
     <Controller globalSceneOptions={{ triggerHook: "onLeave" }}>
       <Scene pin>
         <div className="panel blue">
-          <span>Panel</span>
+          <span>What does love mean?</span>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel turqoise">
-          <span>Panel</span>
+          <span>it's the moments together,</span>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel green">
-          <span>Panel</span>
+          <span>it's the little things that we'll always remember.</span>
         </div>
       </Scene>
       <Scene pin>
         <div className="panel bordeaux">
-          <span>Panel</span>
+          <span>The great thing is - it only gets better,</span>
+        </div>
+      </Scene>
+      <Scene pin>
+        <div className="panel blue">
+          <span>which is why I'm honored to make this gesture,</span>
+        </div>
+      </Scene>
+      <Scene pin>
+        <div className="panel turqoise">
+          <span>in asking...</span>
+        </div>
+      </Scene>
+      <Scene pin>
+        <div className="panel green">
+          <span>will you marry me? 💍</span>
         </div>
       </Scene>
     </Controller>
@@ -66,3 +81,12 @@ const SectionWipes = () => (
 );
 
 export default SectionWipes;
+
+//What does love mean?
+// It's the moments together,
+// It's the little things that we'll always remember.
+// The great thing is, it only gets better
+// which is why I'm honored to make this gesture,
+
+// in asking...
+// will you marry me? 💍
