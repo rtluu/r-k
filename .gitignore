@@ -1,1 +1,8 @@
-.node-modules/.cache
+# package directories
+node_modules
+
+# Auto generated
+build
+
+# mac
+.DS_Store

@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/r-k/static/css/main.1779617f.chunk.css",
-    "main.js": "/r-k/static/js/main.b1c99909.chunk.js",
-    "main.js.map": "/r-k/static/js/main.b1c99909.chunk.js.map",
-    "runtime~main.js": "/r-k/static/js/runtime~main.1d0329a5.js",
-    "runtime~main.js.map": "/r-k/static/js/runtime~main.1d0329a5.js.map",
-    "static/js/2.7a1c3538.chunk.js": "/r-k/static/js/2.7a1c3538.chunk.js",
-    "static/js/2.7a1c3538.chunk.js.map": "/r-k/static/js/2.7a1c3538.chunk.js.map",
+    "main.css": "/r-k/static/css/main.a3d837ef.chunk.css",
+    "main.js": "/r-k/static/js/main.44e1eba2.chunk.js",
+    "main.js.map": "/r-k/static/js/main.44e1eba2.chunk.js.map",
+    "runtime~main.js": "/r-k/static/js/runtime~main.00c2bf23.js",
+    "runtime~main.js.map": "/r-k/static/js/runtime~main.00c2bf23.js.map",
+    "static/js/2.b789ca20.chunk.js": "/r-k/static/js/2.b789ca20.chunk.js",
+    "static/js/2.b789ca20.chunk.js.map": "/r-k/static/js/2.b789ca20.chunk.js.map",
     "index.html": "/r-k/index.html",
-    "precache-manifest.59463d81d166d020a922a6cfdf127803.js": "/r-k/precache-manifest.59463d81d166d020a922a6cfdf127803.js",
+    "precache-manifest.5f94600d03707936f52340f36fc99857.js": "/r-k/precache-manifest.5f94600d03707936f52340f36fc99857.js",
     "service-worker.js": "/r-k/service-worker.js",
-    "static/css/main.1779617f.chunk.css.map": "/r-k/static/css/main.1779617f.chunk.css.map"
+    "static/css/main.a3d837ef.chunk.css.map": "/r-k/static/css/main.a3d837ef.chunk.css.map",
+    "static/media/bouquet1.png": "/r-k/static/media/bouquet1.cb178a68.png",
+    "static/media/bouquet2.png": "/r-k/static/media/bouquet2.ca07b2a5.png",
+    "static/media/butterfly-blue.png": "/r-k/static/media/butterfly-blue.ba1f5ecc.png",
+    "static/media/butterfly-yellow.png": "/r-k/static/media/butterfly-yellow.8621e0ce.png",
+    "static/media/couple1.png": "/r-k/static/media/couple1.7ea009ce.png",
+    "static/media/couple2.png": "/r-k/static/media/couple2.fd67b81b.png",
+    "static/media/couple3.png": "/r-k/static/media/couple3.22be5012.png"
   }
 }

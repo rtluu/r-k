@@ -4,6 +4,9 @@ import { Controller, Scene } from "react-scrollmagic";
 
 import PanelOne from "./Panels/PanelOne/PanelOne";
 import PanelTwo from "./Panels/PanelTwo/PanelTwo";
+import PanelThree from "./Panels/PanelThree/PanelThree";
+import PanelFour from "./Panels/PanelFour/PanelFour";
+import PanelFive from "./Panels/PanelFive/PanelFive";
 
 const SectionWipesStyled = styled.div`
   overflow: hidden;
@@ -55,16 +58,35 @@ const SectionWipesStyled = styled.div`
     }
   }
 
+  .panel.purple {
+    background-color: #8783d1;
+    span {
+      background-color: #8783d1;
+      border: 2px solid #ffffff;
+      h1 {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .panel.bordeaux {
+    background-color: #f5e2c8;
+    span {
+      background-color: #f5e2c8;
+      border: 2px solid #1d4e89;
+      h1 {
+        color: #1d4e89;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+
   .panel.turqoise {
     background-color: #38ced7;
   }
 
   .panel.green {
     background-color: #22d659;
-  }
-
-  .panel.bordeaux {
-    background-color: #953543;
   }
 `;
 
@@ -82,18 +104,18 @@ const SectionWipes = () => (
         </div>
       </Scene>
       <Scene pin>
-        <div className="panel green">
-          <span>the little things we'll always remember.</span>
+        <div className="panel purple">
+          <PanelThree />
         </div>
       </Scene>
       <Scene pin>
         <div className="panel bordeaux">
-          <span>And as we grow it keeps getting better,</span>
+          <PanelFour />
         </div>
       </Scene>
       <Scene pin>
         <div className="panel turqoise">
-          <span>which is why I can't wait to make it forever</span>
+          <PanelFive />
         </div>
       </Scene>
       <Scene pin>
