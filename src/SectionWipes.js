@@ -7,6 +7,7 @@ import PanelTwo from "./Panels/PanelTwo/PanelTwo";
 import PanelThree from "./Panels/PanelThree/PanelThree";
 import PanelFour from "./Panels/PanelFour/PanelFour";
 import PanelFive from "./Panels/PanelFive/PanelFive";
+import PanelSix from "./Panels/PanelSix/PanelSix";
 
 const SectionWipesStyled = styled.div`
   overflow: hidden;
@@ -40,9 +41,9 @@ const SectionWipesStyled = styled.div`
     background-color: #ffffff;
     span {
       background-color: #ffffff;
-      border: 2px solid #d9c97c;
+      border: 2px solid #efa8b8;
       h1 {
-        color: #d9c97c;
+        color: #efa8b8;
       }
     }
   }
@@ -69,7 +70,7 @@ const SectionWipesStyled = styled.div`
     }
   }
 
-  .panel.bordeaux {
+  .panel.yellow {
     background-color: #f5e2c8;
     span {
       background-color: #f5e2c8;
@@ -81,12 +82,28 @@ const SectionWipesStyled = styled.div`
     }
   }
 
-  .panel.turqoise {
-    background-color: #38ced7;
+  .panel.red {
+    background-color: #aa4465;
+    span {
+      background-color: #aa4465;
+      border: 2px solid #ffffff;
+      h1 {
+        color: #ffffff;
+        margin: 0 0.5rem;
+      }
+    }
   }
 
-  .panel.green {
-    background-color: #22d659;
+  .panel.pink {
+    background-color: #f7b2b7;
+    span {
+      background-color: #f7b2b7;
+      border: 2px solid #373737;
+      h1 {
+        color: #373737;
+        margin: 0 0.5rem;
+      }
+    }
   }
 `;
 
@@ -109,18 +126,18 @@ const SectionWipes = () => (
         </div>
       </Scene>
       <Scene pin>
-        <div className="panel bordeaux">
+        <div className="panel yellow">
           <PanelFour />
         </div>
       </Scene>
       <Scene pin>
-        <div className="panel turqoise">
+        <div className="panel red">
           <PanelFive />
         </div>
       </Scene>
       <Scene pin>
-        <div className="panel green">
-          <span>Will you marry me? 💍</span>
+        <div className="panel pink">
+          <PanelSix />
         </div>
       </Scene>
     </Controller>

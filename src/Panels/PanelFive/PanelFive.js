@@ -9,7 +9,71 @@ const love2 = require("./images/love2.png");
 const love3 = require("./images/love3.png");
 const love4 = require("./images/love4.png");
 
-const PanelFiveStyled = styled.div``;
+const PanelFiveStyled = styled.div`
+  .handholding {
+    left: 50%;
+    max-width: 21.5rem;
+    min-width: 18rem;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 50%;
+  }
+
+  .heart {
+    left: 5%;
+    max-width: 4rem;
+    min-width: 1.75rem;
+    position: absolute;
+    top: 5%;
+    width: 7%;
+  }
+
+  .rose {
+    bottom: 3%;
+    max-width: 7rem;
+    min-width: 5rem;
+    position: absolute;
+    right: 5%;
+    width: 15%;
+  }
+
+  .love1 {
+    max-width: 12rem;
+    min-width: 8rem;
+    position: absolute;
+    right: 5%;
+    top: 12%;
+    width: 20%;
+  }
+
+  .love2 {
+    bottom: 20%;
+    left: 8%;
+    max-width: 10rem;
+    min-width: 8rem;
+    position: absolute;
+    width: 20%;
+  }
+
+  .love3 {
+    bottom: 25%;
+    max-width: 10rem;
+    min-width: 8rem;
+    position: absolute;
+    right: 15%;
+    width: 20%;
+  }
+
+  .love4 {
+    bottom: 5%;
+    max-width: 10rem;
+    min-width: 8rem;
+    position: absolute;
+    left: 40%;
+    width: 20%;
+  }
+`;
 
 const PanelFive = () => (
   <PanelFiveStyled>
