@@ -19,11 +19,8 @@ const PanelSixStyled = styled.div`
   .yesno {
     bottom: 21%;
     left: 50%;
-    max-width: 16rem;
-    min-width: 14rem;
     position: absolute;
     transform: translateX(-50%);
-    width: 35%;
 
     button {
       background: white;
@@ -31,14 +28,19 @@ const PanelSixStyled = styled.div`
       font-size: 1.5rem;
       padding: 1rem 2rem;
       outline: none;
+      margin: 0;
 
       &:focus {
-        border: 1px solid #d9d9d9;
+        &#yes {
+          border: 1px solid #61bda6;
+          background-color: #61bda6;
+          color: white;
+        }
       }
 
       &:active {
-        border: 1px solid #61bda6;
         &#yes {
+          border: 1px solid #61bda6;
           background-color: #61bda6;
           color: white;
         }
@@ -52,7 +54,6 @@ const PanelSixStyled = styled.div`
     #no {
       border-radius: 0 0.5rem 0.5rem 0;
       color: #e66d6e;
-      margin-left: -1px;
     }
   }
 `;

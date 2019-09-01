@@ -14,7 +14,7 @@ const SectionWipesStyled = styled.div`
 
   .panel {
     height: 100vh;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
     width: 100vw;
     text-align: center;
   }
