@@ -21,6 +21,7 @@ const PanelSixStyled = styled.div`
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
+    width: 100%;
 
     button {
       background: white;
