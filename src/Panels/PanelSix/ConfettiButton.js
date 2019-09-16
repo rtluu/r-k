@@ -11,7 +11,7 @@ const slowClick = setLoading => () => {
   setTimeout(() => setLoading(false), 200);
 };
 
-export default ({ confettiConfig, isLoading, setLoading }) => {
+export default ({ confettiConfig, isLoading, setLoading, isYes }) => {
   return (
     <ConfettiButtonStyled
       className="button button-primary loading-button"
@@ -24,7 +24,7 @@ export default ({ confettiConfig, isLoading, setLoading }) => {
         config={confettiConfig}
       />
 
-      {isLoading ? "YAY!" : "YES"}
+      {isYes ? "🥰" : "YES"}
     </ConfettiButtonStyled>
   );
 };

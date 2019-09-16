@@ -16,6 +16,10 @@ const PanelSixStyled = styled.div`
     width: 25%;
   }
 
+  span{
+    overflow: hidden !important;
+  }
+
   .yesno {
     bottom: 21%;
     left: 50%;
@@ -23,18 +27,35 @@ const PanelSixStyled = styled.div`
     transform: translateX(-50%);
     width: 100%;
 
+    &.is-yes{
+      #yes{
+        top: -0.0625rem;
+        border: 1px solid #61bda6;
+        background-color: #61bda6;
+        color: white;
+      }
+    }
+
     button {
       background: white;
       border-color: #d9d9d9;
       font-size: 1.5rem;
       padding: 1rem 2rem;
       outline: none;
+      height:70px;
       margin: 0;
+      position: relative;
 
       &:focus {
         &#yes {
           border: 1px solid #61bda6;
           background-color: #61bda6;
+          color: white;
+        }
+
+        &#no {
+          border: 1px solid #e66d6e;
+          background-color: #e66d6e;
           color: white;
         }
       }
@@ -45,8 +66,15 @@ const PanelSixStyled = styled.div`
           background-color: #61bda6;
           color: white;
         }
+        &#no {
+          border: 1px solid #e66d6e;
+          background-color: #e66d6e;
+          color: white;
+        }
       }
     }
+
+    
 
     #yes {
       border-radius: 0.5rem 0 0 0.5rem;
@@ -55,6 +83,14 @@ const PanelSixStyled = styled.div`
     #no {
       border-radius: 0 0.5rem 0.5rem 0;
       color: #e66d6e;
+
+      &.is-no{
+        top: -0.0625rem;
+        border: 1px solid #e66d6e;
+        background-color: #e66d6e;
+        color: white;
+        }
+      }
     }
   }
 `;
@@ -80,38 +116,67 @@ export default class PanelSix extends Component {
 
     this.state = {
       isLoading: false,
-      isYes: false
+      isYes: false,
+      isNo: false,
     };
+
+    this.setNo = this.setNo.bind(this);
   }
 
   setLoading(value) {
     this.setState({ isLoading: value });
     this.setState({ isYes: true });
+    this.setState({ isNo: false });
+  }
+
+  setNo() {
+    this.setState({ isNo: true });
+    this.setState({ isYes: false });
   }
 
   render() {
-    const { isLoading, isYes } = this.state;
+    const { isLoading, isYes, isNo } = this.state;
+
+    var yes = {};
+    if (this.state.isYes) {
+      yes.class = 'yesno is-yes';
+    } else {
+      yes.class = 'yesno';
+    }
+
+    var no = {};
+    if (this.state.isNo) {
+      no.class = 'is-no';
+    } else {
+      no.class = '';
+    }
+
     return (
       <PanelSixStyled>
         <img className="ring" src={ring} />
         <span>
           {isYes ? (
-            <h1>
-              <b>#aLuuBeginning</b>
-            </h1>
+            <div>
+              <h1>
+                <b>#aLuuBeginning</b>
+              </h1>
+            </div>
+          ) : isNo ? (
+            <img src="https://media2.giphy.com/media/9Y5BbDSkSTiY8/giphy.gif?cid=790b76112f9a9a3716c657e42112e59527522ea561a1484a&amp;rid=giphy.gif" alt="sad face GIF" />
           ) : (
-            <h1>
-              Kristina Marie Garcia, <b>Will you marry me?</b>
-            </h1>
-          )}
+                <h1>
+                  Kristina Marie Garcia, <b>Will you marry me?</b>
+                </h1>
+              )}
         </span>
-        <div className="yesno">
+        <div className={yes.class}>
           <ConfettiButton
+            isYes={isYes}
             isLoading={isLoading}
             setLoading={this.setLoading}
             confettiConfig={config}
           />
-          <button id="no">NO</button>
+          <button id="no" className={no.class} onClick={this.setNo}>{isNo ? "☠️" : "NO"}</button>
         </div>
       </PanelSixStyled>
     );
