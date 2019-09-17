@@ -29,7 +29,6 @@ const PanelSixStyled = styled.div`
 
     &.is-yes{
       #yes{
-        top: -0.0625rem;
         border: 1px solid #61bda6;
         background-color: #61bda6;
         color: white;
@@ -85,7 +84,6 @@ const PanelSixStyled = styled.div`
       color: #e66d6e;
 
       &.is-no{
-        top: -0.0625rem;
         border: 1px solid #e66d6e;
         background-color: #e66d6e;
         color: white;
