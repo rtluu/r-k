@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactGA from 'react-ga';
 import styled from "styled-components";
 
 import ConfettiButton from "./ConfettiButton.js";
@@ -125,11 +126,20 @@ export default class PanelSix extends Component {
     this.setState({ isLoading: value });
     this.setState({ isYes: true });
     this.setState({ isNo: false });
+
+    ReactGA.event({
+      category: 'YesNo',
+      action: 'Answered Yes'
+    });
   }
 
   setNo() {
     this.setState({ isNo: true });
     this.setState({ isYes: false });
+    ReactGA.event({
+      category: 'YesNo',
+      action: 'Answered No'
+    });
   }
 
   render() {
