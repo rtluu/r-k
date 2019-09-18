@@ -41,7 +41,7 @@ const PanelTwo = () => (
     <img className="couple1" src={couple1} />
     <img className="couple3" src={couple3} />
     <span>
-      <h1>it's the moments together</h1>
+      <h1>It's the moments together,</h1>
     </span>
   </PanelTwoStyled>
 );
