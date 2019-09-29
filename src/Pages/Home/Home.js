@@ -1,0 +1,88 @@
+import React from "react";
+import ReactGA from 'react-ga';
+import styled from "styled-components";
+
+ReactGA.initialize('UA-148182167-1');
+ReactGA.pageview('/home');
+
+const HomeStyled = styled.div`
+    &.main{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        img{
+            position: relative;
+            width: 100%;
+        }
+
+        .block{
+            margin: 5rem 0;
+            max-width: 42rem;
+            width: 90%;
+
+            h3{
+                margin: 2.5rem 0;
+            }
+
+            h2{
+                margin: 6.5rem 0 0 0;
+            }
+
+            p{
+                text-align: left;
+                margin: 2.25rem 0 0 0;
+            }
+            
+            .proposal-pic{
+                border-radius: 0.5rem;
+                margin: 2rem 0;
+                max-width: 24rem;
+            }
+        }
+
+        .divider{
+            background: rgb(235,235,235);
+            height: 2px;
+            margin: 1.25rem 0;
+            max-width: 46rem;
+            width: 90%;
+        }
+
+        .excited-message{
+            margin: 2rem 0 9rem 0;
+        }
+    }
+`;
+
+const homeHero = require("./images/home-hero.png");
+const proposalPic = require("./images/proposal-pic.png");
+const homeBottom = require("./images/home-bottom.png");
+
+const Home = () => (
+    <HomeStyled className="main">
+        <img src={homeHero} />
+        <div className="block">
+            <h1>Kristina Garcia</h1>
+            <h3>AND</h3>
+            <h1>Ryan Luu</h1>
+            <h2>September 12, 2020</h2>
+        </div>
+        <span className="divider" />
+        <div className="block">
+            <h1>How We Met</h1>
+            <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
+        </div>
+        <div className="block">
+            <h1>The Proposal</h1>
+            <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
+            <img src={proposalPic} className="proposal-pic" />
+        </div>
+        <h2 className="excited-message">We're excited to celebrate with you!</h2>
+        <img src={homeBottom} />
+    </HomeStyled>
+);
+
+
+export default Home;

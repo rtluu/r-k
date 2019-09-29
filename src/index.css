@@ -1,11 +1,32 @@
-body {
-  margin: 0;
-  font-family: "Open Sans Condensed", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "LeslieDawn";
+  src: url("./fonts/LeslieDawn.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+h1,h2{
+  font-family: "LeslieDawn", sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+h2{
+  font-size: 2.75rem;
+}
+
+p{
+  font-size: 1.5rem;
 }

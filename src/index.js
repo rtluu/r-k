@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Home from "./Pages/Home/Home";
+import Proposal from "./Pages/Proposal/Proposal";
+import * as serviceWorker from './serviceWorker'
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import Header from "./Universal/Header";
+import Footer from "./Universal/Footer";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter>
+        <div>
+            <Header />
+            <Route exact path="/" component={Home} />
+            <Route path="/proposal" component={Proposal} />
+            <Footer />
+        </div>
+    </BrowserRouter>
+    ,
+    document.getElementById('root')
+);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
