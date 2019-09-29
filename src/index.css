@@ -17,6 +17,7 @@ h1,h2{
   font-family: "LeslieDawn", sans-serif;
   font-weight: 300;
   margin: 0;
+  
 }
 
 h1{
@@ -29,4 +30,10 @@ h2{
 
 p{
   font-size: 1.5rem;
+}
+
+@media (max-width: 50rem) {
+  h1{
+    font-size: 3rem;
+  }
 }
