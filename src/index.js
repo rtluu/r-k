@@ -7,6 +7,7 @@ import { BrowserRouter, Link, Route } from 'react-router-dom';
 
 import './index.css';
 import Header from "./Universal/Header";
+import Footer from "./Universal/Footer";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,6 +15,7 @@ ReactDOM.render(
             <Header />
             <Route exact path="/" component={Home} />
             <Route path="/proposal" component={Proposal} />
+            <Footer />
         </div>
     </BrowserRouter>
     ,
