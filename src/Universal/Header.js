@@ -165,6 +165,7 @@ export default class Header extends Component {
         };
 
         this.menuSwitch = this.menuSwitch.bind(this);
+        this.menuClick = this.menuClick.bind(this);
         this.showHamburger = this.showHamburger.bind(this);
         this.hideHamburger = this.hideHamburger.bind(this);
     }
@@ -178,6 +179,11 @@ export default class Header extends Component {
             this.setState({ menuShow: false });
         }
 
+    }
+
+    menuClick() {
+        this.setState({ menuShow: false });
+        this.setState({ menuOpen: false });
     }
 
     menuSwitch() {
@@ -201,9 +207,9 @@ export default class Header extends Component {
             <HeaderStyled>
                 <h1>Kristina & Ryan</h1>
                 <nav>
-                    <Link to="/">HOME</Link>
-                    <Link to="/schedule">SCHEDULE</Link>
-                    <Link to="/proposal">PROPOSAL</Link>
+                    <Link onClick={this.menuClick} to="/">HOME</Link>
+                    <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>
+                    <Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link>
                 </nav>
                 <div className={holder.class}>
                     <button className={hamburger.class} onClick={this.menuSwitch}>
@@ -217,9 +223,9 @@ export default class Header extends Component {
                         this.state.menuOpen &&
                         <div className={"menu"}>
                             <ul className="menu-options">
-                                <h3><Link to="/">HOME</Link></h3>
-                                <h3><Link to="/schedule">SCHEDULE</Link></h3>
-                                <h3><Link to="/proposal">PROPOSAL</Link></h3>
+                                <h3><Link onClick={this.menuClick} to="/">HOME</Link></h3>
+                                <h3><Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link></h3>
+                                <h3><Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link></h3>
                             </ul>
                         </div>
                     }

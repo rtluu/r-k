@@ -24,6 +24,7 @@ const HomeStyled = styled.div`
             width: 80%;
             @media (max-width: 50rem) {
                 margin: 3.5rem 0;
+                width: 90%;
             }
 
             h3{
@@ -43,6 +44,9 @@ const HomeStyled = styled.div`
             p{
                 text-align: left;
                 margin: 2.25rem 0 0 0;
+                @media (max-width: 50rem) {
+                    margin: 2.25rem 1rem 0 1rem;
+                }
             }
 
             .link{
@@ -66,7 +70,7 @@ const HomeStyled = styled.div`
             width: 80%;
             @media (max-width: 50rem) {
                 margin: 1rem 0;
-             }
+            }
         }
 
         .excited-message{
