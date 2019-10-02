@@ -10,6 +10,10 @@ const FooterStyled = styled.div`
     position: relative;
     margin: 1rem 0;
     z-index: 0;
+    @media (max-width: 50rem) {
+        margin: 0.75rem 0;
+        padding: 0 1.75rem 0 1rem;
+    }
 
     .footer-icons{
         align-items: center;
