@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4a3b704550767c98f8551f8ad06f96ea",
+    "revision": "9efccdca3459276381f116812b10d57a",
     "url": "/index.html"
   },
   {
-    "revision": "2cd63238735715e5cadf",
-    "url": "/static/css/main.b9342738.chunk.css"
+    "revision": "9c7fa9b8d167daae550d",
+    "url": "/static/css/main.5ce97fcb.chunk.css"
   },
   {
     "revision": "79094f813de08173a56a",
     "url": "/static/js/2.40b39915.chunk.js"
   },
   {
-    "revision": "2cd63238735715e5cadf",
-    "url": "/static/js/main.fefb0022.chunk.js"
+    "revision": "9c7fa9b8d167daae550d",
+    "url": "/static/js/main.cb4b199b.chunk.js"
   },
   {
     "revision": "2211144055d5089bca25",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bouquet2.ca07b2a5.png"
   },
   {
+    "revision": "24b788ddc591585d764c2b69969eccbc",
+    "url": "/static/media/bride-groom.24b788dd.svg"
+  },
+  {
     "revision": "ba1f5ecc93b90a40a555565bdd78d555",
     "url": "/static/media/butterfly-blue.ba1f5ecc.png"
   },
@@ -48,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/chance.7c14f5ca.png"
   },
   {
+    "revision": "1ac5a7cf1a17c2e65ee33bf18fcc0f18",
+    "url": "/static/media/clipboard.1ac5a7cf.svg"
+  },
+  {
     "revision": "7ea009ce1fae4e6f6d73f7b225bb60bf",
     "url": "/static/media/couple1.7ea009ce.png"
   },
@@ -58,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22be50123108b9808c776443a31c54c5",
     "url": "/static/media/couple3.22be5012.png"
+  },
+  {
+    "revision": "29c5b525b05374c42933cc53cb5168fc",
+    "url": "/static/media/dinner.29c5b525.svg"
+  },
+  {
+    "revision": "0031436aa8bbec05500d15392e8df09d",
+    "url": "/static/media/frisbee.0031436a.svg"
   },
   {
     "revision": "85a977129dcede6a6ff75a45f76c032c",
