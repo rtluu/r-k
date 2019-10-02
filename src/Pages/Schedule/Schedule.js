@@ -18,7 +18,6 @@ const ScheduleStyled = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: center;
-            opacity: 0.4;
             margin: 3rem 0;
 
             .calendar{
