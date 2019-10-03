@@ -20,6 +20,10 @@ const ScheduleStyled = styled.div`
             justify-content: center;
             margin: 3rem 0;
 
+            @media (max-width: 50rem) {
+                max-width: 15rem;
+            }
+
             .calendar{
                 height: 64px;
                 width: 64px;
@@ -30,6 +34,8 @@ const ScheduleStyled = styled.div`
             }
         }
 
+        
+
         .schedule-block{
             display: grid;
             margin: 2rem 10% 5rem 10%;
@@ -37,11 +43,32 @@ const ScheduleStyled = styled.div`
             position: relative;
             width: 100%;
 
+            @media (max-width: 50rem) {
+                grid-template-columns: 100%;
+                margin: 0rem 10% 3rem 10%;
+            }
+
+            .separator{
+                display: none;
+                height: 2px;
+                background: #EBEBEB;
+                position: relative;
+                margin-bottom: 5.5rem;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 20rem;
+    
+                @media (max-width: 50rem) {
+                    display: block;
+                }
+            }
+
             .activity-block{
                 align-items: center;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                padding: 0 2rem;
 
                 h1{
                     margin-bottom: 1.5rem;
@@ -58,6 +85,10 @@ const ScheduleStyled = styled.div`
                 left: 50%;
                 width: 0.25rem;
                 transform: translateX(-50%);
+
+                @media (max-width: 50rem) {
+                    display: none;
+                }
             }
 
             .location-block{
@@ -65,7 +96,12 @@ const ScheduleStyled = styled.div`
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                padding: 0 2rem;
                 margin: 3.5rem 0;
+
+                @media (max-width: 50rem) {
+                    margin: 2.5rem 0;
+                }
 
                 img{
                     margin-bottom: 1.5rem;
@@ -107,8 +143,8 @@ const Schedule = () => (
             <img className="calendar" src={calendar} />
             <p>Here’s what to expect during our wedding weekend!</p>
         </div>
-
         <div className="schedule-block">
+            <div className="separator" />
             <div className="activity-block">
                 <h1>Ultimate Frisbee</h1>
                 <h3>SEPTEMBER, 10 2020</h3>
@@ -125,6 +161,7 @@ const Schedule = () => (
         </div>
 
         <div className="schedule-block">
+            <div className="separator" />
             <div className="activity-block">
                 <h1>Rehearsal</h1>
                 <h3>SEPTEMBER, 11 2020</h3>
@@ -141,6 +178,7 @@ const Schedule = () => (
         </div>
 
         <div className="schedule-block">
+            <div className="separator" />
             <div className="activity-block">
                 <h1>Rehearsal Dinner</h1>
                 <h3>SEPTEMBER, 11 2020</h3>
@@ -157,6 +195,7 @@ const Schedule = () => (
         </div>
 
         <div className="schedule-block">
+            <div className="separator" />
             <div className="activity-block">
                 <h1>Wedding</h1>
                 <h3>SEPTEMBER, 12 2020</h3>
