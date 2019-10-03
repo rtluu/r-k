@@ -142,7 +142,8 @@ const HeaderStyled = styled.header`
                     font-size: 3.5rem;
                     margin: 1rem 0;
                     @media (max-width: 50rem) {
-                        font-size: 2.5rem;
+                        font-size: 2rem;
+                        margin: 0.5rem 0;
                     }
                     a{
                         display: inline-block;
@@ -210,6 +211,7 @@ export default class Header extends Component {
                     <Link onClick={this.menuClick} to="/">HOME</Link>
                     <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>
                     <Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link>
+                    <Link onClick={this.menuClick} to="/accomodations">ACCOMODATIONS</Link>
                 </nav>
                 <div className={holder.class}>
                     <button className={hamburger.class} onClick={this.menuSwitch}>
@@ -226,6 +228,7 @@ export default class Header extends Component {
                                 <h3><Link onClick={this.menuClick} to="/">HOME</Link></h3>
                                 <h3><Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link></h3>
                                 <h3><Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link></h3>
+                                <h3><Link onClick={this.menuClick} to="/accomodations">ACCOMODATIONS</Link></h3>
                             </ul>
                         </div>
                     }

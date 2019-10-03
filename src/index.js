@@ -9,6 +9,7 @@ import Footer from "./Universal/Footer";
 import Home from "./Pages/Home/Home";
 import Proposal from "./Pages/Proposal/Proposal";
 import Schedule from "./Pages/Schedule/Schedule";
+import Accomodations from './Pages/Accomodations/Accomodations';
 
 const history = createBrowserHistory();
 
@@ -25,6 +26,7 @@ ReactDOM.render(
             <Route exact path="/" component={Home} />
             <Route path="/schedule" component={Schedule} />
             <Route path="/proposal" component={Proposal} />
+            <Route path="/accomodations" component={Accomodations} />
             <Footer />
         </div>
     </BrowserRouter>
