@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "209bb3e0e16d06aa970a84975e5b4d74",
+    "revision": "b8ed98988e7154e71dbe606c97ef86cf",
     "url": "/index.html"
   },
   {
-    "revision": "41f0a1b62bcfd2c87dfe",
+    "revision": "4a71b9acbb2685f7a62c",
     "url": "/static/css/main.86e701ff.chunk.css"
   },
   {
-    "revision": "79094f813de08173a56a",
-    "url": "/static/js/2.40b39915.chunk.js"
+    "revision": "23417d4635eb107d9686",
+    "url": "/static/js/2.d11ecfbc.chunk.js"
   },
   {
-    "revision": "41f0a1b62bcfd2c87dfe",
-    "url": "/static/js/main.c3c5a038.chunk.js"
+    "revision": "4a71b9acbb2685f7a62c",
+    "url": "/static/js/main.089acf36.chunk.js"
   },
   {
     "revision": "2211144055d5089bca25",
@@ -92,6 +92,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/home-hero.557e2be4.png"
   },
   {
+    "revision": "ca4c86904111a36512abb205ea3c3cac",
+    "url": "/static/media/hotel-pic.ca4c8690.png"
+  },
+  {
+    "revision": "ff428c9c03b040759d6d9b98afb0678e",
+    "url": "/static/media/hotel.ff428c9c.svg"
+  },
+  {
     "revision": "83fd1720ce464659bff782b3d074da8c",
     "url": "/static/media/instagram.83fd1720.svg"
   },
@@ -124,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/penguins.c1abc9ce.png"
   },
   {
+    "revision": "912c99beca699fd43de13550d27b9d10",
+    "url": "/static/media/plane.912c99be.svg"
+  },
+  {
     "revision": "1d8e700d4a51525f1a77687bd9f16bb0",
     "url": "/static/media/proposal-pic.1d8e700d.png"
   },
@@ -134,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d225259715e1962b6f456eec71876044",
     "url": "/static/media/rose.d2252597.png"
+  },
+  {
+    "revision": "a72ea14922d54b9e5b7075e93d5a09b8",
+    "url": "/static/media/skyline.a72ea149.svg"
   },
   {
     "revision": "3e7bf978b232c3a5249119ca6ec4cc1b",
