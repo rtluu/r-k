@@ -11,15 +11,13 @@ import Proposal from "./Pages/Proposal/Proposal";
 import Schedule from "./Pages/Schedule/Schedule";
 import Accomodations from './Pages/Accomodations/Accomodations';
 
-const history = createBrowserHistory();
-
 const ScrollToTop = () => {
     window.scrollTo(0, 0);
     return null;
 };
 
 ReactDOM.render(
-    <BrowserRouter history={history} >
+    <BrowserRouter >
         <Route component={ScrollToTop} />
         <div>
             <Header />
