@@ -79,11 +79,11 @@ const ScheduleStyled = styled.div`
             }
 
             .divider{
-                background: #EBEBEB;
+                background: #ffffff;
                 height: 100%;
                 position: absolute;
                 left: 50%;
-                width: 0.25rem;
+                width: 0.125rem;
                 transform: translateX(-50%);
 
                 @media (max-width: 50rem) {
@@ -112,13 +112,9 @@ const ScheduleStyled = styled.div`
                 }
 
                 button{
-                    background: none;
-                    border: 0.125rem solid black;
-                    cursor: pointer;
                     margin-top: 1.75rem;
                     padding: 1rem 7.5rem;
-                    transition: all 0.1s;
-
+                
                     &:hover{
                         background: black;
                         color: white;
@@ -126,6 +122,10 @@ const ScheduleStyled = styled.div`
                 }
             }
         }
+    }
+
+    img{
+        filter: invert(100%);
     }
         
 `;

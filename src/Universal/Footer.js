@@ -27,12 +27,14 @@ const FooterStyled = styled.div`
 
             &:hover{
                 img{
-                    filter: brightness(0%);
+                    filter:  brightness(0);
                 }
             }
 
             img{
                 margin: 0.25rem;
+                
+                filter: brightness(0%) invert(100%);
             }
             
             #instagram{
@@ -57,7 +59,6 @@ const FooterStyled = styled.div`
 
     .made-with{  
         cursor: default;
-        color: #BFBDC1;
         font-size: 1.25rem;
         @media (max-width: 50rem) {
             font-size: 1.125rem;
