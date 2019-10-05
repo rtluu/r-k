@@ -50,7 +50,7 @@ const HomeStyled = styled.div`
             }
 
             .link{
-                color: #7C99A7;
+                color: #CCB5B5;
                 margin-left: 0.375rem;
                 font-weight: 600;
             }

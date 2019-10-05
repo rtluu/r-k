@@ -116,8 +116,8 @@ const ScheduleStyled = styled.div`
                     padding: 1rem 7.5rem;
                 
                     &:hover{
-                        background: black;
-                        color: white;
+                        background: white;
+                        color: #7C99A7;
                     }
                 }
             }
@@ -163,43 +163,9 @@ const Schedule = () => (
         <div className="schedule-block">
             <div className="separator" />
             <div className="activity-block">
-                <h1>Rehearsal</h1>
-                <h3>SEPTEMBER, 11 2020</h3>
-                <h4>TBD</h4>
-            </div>
-            <div className="divider" />
-            <div className="location-block">
-                <img className="clipboard" src={clipboard} />
-                <h3>CARNEGIE INSTITUTE FOR SCIENCE</h3>
-                <h3>1530 P ST NW</h3>
-                <h3>WASHINGTON, DC</h3>
-                <button>MAP</button>
-            </div>
-        </div>
-
-        <div className="schedule-block">
-            <div className="separator" />
-            <div className="activity-block">
-                <h1>Rehearsal Dinner</h1>
-                <h3>SEPTEMBER, 11 2020</h3>
-                <h4>TBD</h4>
-            </div>
-            <div className="divider" />
-            <div className="location-block">
-                <img className="dinner" src={dinner} />
-                <h3>APPLEBEE'S WASHINGTON DC</h3>
-                <h3>950 MASON STREET</h3>
-                <h3>WASHINGTON, DC</h3>
-                <button>MAP</button>
-            </div>
-        </div>
-
-        <div className="schedule-block">
-            <div className="separator" />
-            <div className="activity-block">
                 <h1>Wedding</h1>
                 <h3>SEPTEMBER, 12 2020</h3>
-                <h4>TBD</h4>
+                <h4>5:00pm</h4>
             </div>
             <div className="divider" />
             <div className="location-block">
