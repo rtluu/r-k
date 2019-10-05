@@ -32,6 +32,7 @@ const AccomodationsStyled = styled.div`
 
                 img{
                     margin: 0 1.5rem;
+                    filter: invert(100%);
                 }
             }
         }
@@ -52,6 +53,10 @@ const AccomodationsStyled = styled.div`
                 width: 100%;
                 @media (max-width: 50rem) {
                     margin: 2rem 0;
+                }
+
+                &.skyline{
+                    filter: invert(100%);
                 }
             }
 
@@ -80,8 +85,8 @@ const AccomodationsStyled = styled.div`
         
 `;
 
-const hotel = require("./images/hotel.svg");
-const plane = require("./images/plane.svg");
+const hotel = require("./images/hotel-front.svg");
+const plane = require("./images/airplane.svg");
 const hotelPic = require("./images/hotel-pic.png");
 const skyline = require("./images/skyline.svg");
 
@@ -107,10 +112,12 @@ const Accomodations = () => (
         <div className="separator" />
         <div className="accomodation-block">
             <h1>Travel</h1>
-            <img src={skyline} />
-            <h3>DCA - Reagan Nationl Airport</h3>
-            <h3>IAD - Dulles International Airport</h3>
-            <h3>BWI - Baltimore International Airport</h3>
+            <img className="skyline" src={skyline} />
+            <div className="airports">
+                <h3>DCA - Reagan Nationl Airport</h3>
+                <h3>IAD - Dulles International Airport</h3>
+                <h3>BWI - Baltimore International Airport</h3>
+            </div>
             <p>All three of these airports are within range of the wedding and are arranged from closest to furthest. We recommend booking as early as you can to get good flights at good prices! Try checking out a flight aggregator like Google Flights.</p>
         </div>
 

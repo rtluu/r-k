@@ -74,6 +74,7 @@ const HeaderStyled = styled.header`
                     top: -0.3125rem;
 
                     .line{
+                        background: #7C99A7;
                         transition: all 0.2s;
                         &:nth-child(1){
                             position: absolute;
@@ -105,7 +106,7 @@ const HeaderStyled = styled.header`
                 position: relative;
                 .line{
                     transition: all 0.2s;
-                    background: #BFBDC1;
+                    background: #ffffff;
                     height: 0.125rem;
                     margin: 0.25rem;
                     width: 1.75rem;
@@ -147,6 +148,7 @@ const HeaderStyled = styled.header`
                     }
                     a{
                         display: inline-block;
+                        color: #7C99A7;
                         padding: 1rem;
                     }
                 }
@@ -210,8 +212,9 @@ export default class Header extends Component {
                 <nav>
                     <Link onClick={this.menuClick} to="/">HOME</Link>
                     <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>
-                    <Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link>
                     <Link onClick={this.menuClick} to="/accomodations">ACCOMODATIONS</Link>
+                    <a href="https://www.zola.com/registry/ourluubeginning" target="_blank">REGISTRY</a>
+                    <Link onClick={this.menuClick} to="/weddingparty">WEDDING PARTY</Link>
                 </nav>
                 <div className={holder.class}>
                     <button className={hamburger.class} onClick={this.menuSwitch}>
@@ -227,8 +230,9 @@ export default class Header extends Component {
                             <ul className="menu-options">
                                 <h3><Link onClick={this.menuClick} to="/">HOME</Link></h3>
                                 <h3><Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link></h3>
-                                <h3><Link onClick={this.menuClick} to="/proposal">PROPOSAL</Link></h3>
                                 <h3><Link onClick={this.menuClick} to="/accomodations">ACCOMODATIONS</Link></h3>
+                                <h3><a href="https://www.zola.com/registry/ourluubeginning" target="_blank">REGISTRY</a></h3>
+                                <h3><Link onClick={this.menuClick} to="/weddingparty">WEDDING PARTY</Link></h3>
                             </ul>
                         </div>
                     }
