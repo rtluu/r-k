@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c1f493f6f8d0aed945eaabb35e11457",
+    "revision": "0f133ceabbe16cd8033b47efd711b00e",
     "url": "/index.html"
   },
   {
-    "revision": "39ede8825db8045b1843",
-    "url": "/static/css/main.86e701ff.chunk.css"
+    "revision": "94da0ac4bb1bff43101b",
+    "url": "/static/css/main.da64abdf.chunk.css"
   },
   {
-    "revision": "709791436580a2b3102b",
-    "url": "/static/js/2.2ad7face.chunk.js"
+    "revision": "179785559a75382f35e8",
+    "url": "/static/js/2.7d7496c2.chunk.js"
   },
   {
-    "revision": "39ede8825db8045b1843",
-    "url": "/static/js/main.3fe3ed79.chunk.js"
+    "revision": "94da0ac4bb1bff43101b",
+    "url": "/static/js/main.91838a69.chunk.js"
   },
   {
     "revision": "2211144055d5089bca25",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4dcd24018052b2f471b9adf0239898d4",
     "url": "/static/media/LeslieDawn.4dcd2401.woff"
+  },
+  {
+    "revision": "5223a046a807dfa3614b70727c24e1ec",
+    "url": "/static/media/airplane.5223a046.svg"
   },
   {
     "revision": "cb178a68c746c86c95be45fb454a0ce1",
@@ -72,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/dinner.29c5b525.svg"
   },
   {
+    "revision": "4e1bd45aff4239a1d92e46a463298487",
+    "url": "/static/media/dress.4e1bd45a.svg"
+  },
+  {
     "revision": "91bfd060b4f3809f2a5e1c0ef0dddb44",
     "url": "/static/media/frisbee.91bfd060.svg"
   },
@@ -92,12 +100,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/home-hero.557e2be4.png"
   },
   {
-    "revision": "ca4c86904111a36512abb205ea3c3cac",
-    "url": "/static/media/hotel-pic.ca4c8690.png"
+    "revision": "88ffe1f6d6419367c5908d72891187cf",
+    "url": "/static/media/hotel-front.88ffe1f6.svg"
   },
   {
-    "revision": "ff428c9c03b040759d6d9b98afb0678e",
-    "url": "/static/media/hotel.ff428c9c.svg"
+    "revision": "ca4c86904111a36512abb205ea3c3cac",
+    "url": "/static/media/hotel-pic.ca4c8690.png"
   },
   {
     "revision": "83fd1720ce464659bff782b3d074da8c",
@@ -132,10 +140,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/penguins.c1abc9ce.png"
   },
   {
-    "revision": "912c99beca699fd43de13550d27b9d10",
-    "url": "/static/media/plane.912c99be.svg"
-  },
-  {
     "revision": "1d8e700d4a51525f1a77687bd9f16bb0",
     "url": "/static/media/proposal-pic.1d8e700d.png"
   },
@@ -162,5 +166,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e0503533c0bc8e065c1a02000eadeff3",
     "url": "/static/media/townhouse.e0503533.png"
+  },
+  {
+    "revision": "f2ccd867abfa1d2c944004838913372e",
+    "url": "/static/media/vest.f2ccd867.svg"
   }
 ]);
