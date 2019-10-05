@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker'
-import { BrowserRouter, Link, Route } from 'react-router-dom';
+import { HashRouter, Link, Route } from 'react-router-dom';
 import { createBrowserHistory } from "history"
 import './index.css';
 import Header from "./Universal/Header";
@@ -17,7 +17,7 @@ const ScrollToTop = () => {
 };
 
 ReactDOM.render(
-    <BrowserRouter >
+    <HashRouter >
         <Route component={ScrollToTop} />
         <div>
             <Header />
@@ -27,7 +27,7 @@ ReactDOM.render(
             <Route path="/accomodations" component={Accomodations} />
             <Footer />
         </div>
-    </BrowserRouter>
+    </HashRouter>
     ,
     document.getElementById('root')
 );
