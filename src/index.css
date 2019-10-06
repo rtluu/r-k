@@ -33,6 +33,7 @@ button{
   background: none;
   border: 0.125rem solid white;
   cursor: pointer;
+  outline: none;
   transition: all 0.1s;
 }
 
@@ -78,4 +79,12 @@ a:hover{
   p{
     font-size: 1.25rem;
   }
+}
+
+.react-images__blanket{
+  z-index: 5 !important;
+}
+
+.react-images__positioner{
+  z-index: 5 !important;
 }

@@ -147,7 +147,7 @@ const Schedule = () => (
             <div className="separator" />
             <div className="activity-block">
                 <h1>Ultimate Frisbee</h1>
-                <h3>SEPTEMBER, 10 2020</h3>
+                <h3>THURSDAY, SEPTEMBER 10, 2020</h3>
                 <h4>6:00pm</h4>
             </div>
             <div className="divider" />
@@ -156,7 +156,7 @@ const Schedule = () => (
                 <h3>NATIONAL MALL</h3>
                 <h3>7th & MADISON</h3>
                 <h3>WASHINGTON, DC</h3>
-                <button>MAP</button>
+                <a href="https://goo.gl/maps/UmcXd6tPr4GXE8YS6" target="_blank"><button>MAP</button></a>
             </div>
         </div>
 
@@ -164,7 +164,7 @@ const Schedule = () => (
             <div className="separator" />
             <div className="activity-block">
                 <h1>Wedding</h1>
-                <h3>SEPTEMBER, 12 2020</h3>
+                <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
                 <h4>5:00pm</h4>
             </div>
             <div className="divider" />
@@ -173,7 +173,7 @@ const Schedule = () => (
                 <h3>CARNEGIE INSTITUTE FOR SCIENCE</h3>
                 <h3>1530 P ST NW</h3>
                 <h3>WASHINGTON, DC</h3>
-                <button>MAP</button>
+                <a href="https://goo.gl/maps/BDkbgJAd8X9PFSPM7" target="_blank"><button>MAP</button></a>
             </div>
         </div>
     </ScheduleStyled >
