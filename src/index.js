@@ -11,6 +11,7 @@ import Proposal from "./Pages/Proposal/Proposal";
 import Schedule from "./Pages/Schedule/Schedule";
 import Accomodations from './Pages/Accomodations/Accomodations';
 import WeddingParty from './Pages/WeddingParty/WeddingParty';
+import PhotoCollage from './Pages/PhotoCollage/PhotoCollage';
 
 const ScrollToTop = () => {
     window.scrollTo(0, 0);
@@ -27,6 +28,7 @@ ReactDOM.render(
             <Route path="/proposal" component={Proposal} />
             <Route path="/accomodations" component={Accomodations} />
             <Route path="/weddingparty" component={WeddingParty} />
+            <Route path="/photos" component={PhotoCollage} />
             <Footer />
         </div>
     </HashRouter>
