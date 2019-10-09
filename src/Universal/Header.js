@@ -216,6 +216,7 @@ export default class Header extends Component {
                     <a href="https://www.zola.com/registry/ourluubeginning" target="_blank">REGISTRY</a>
                     <Link onClick={this.menuClick} to="/weddingparty">WEDDING PARTY</Link>
                     <Link onClick={this.menuClick} to="/photos">PHOTOS</Link>
+                    <Link onClick={this.menuClick} to="/rsvp">RSVP</Link>
                 </nav>
                 <div className={holder.class}>
                     <button className={hamburger.class} onClick={this.menuSwitch}>
@@ -234,7 +235,7 @@ export default class Header extends Component {
                                 <h3><Link onClick={this.menuClick} to="/accomodations">ACCOMODATIONS</Link></h3>
                                 <h3><a href="https://www.zola.com/registry/ourluubeginning" target="_blank">REGISTRY</a></h3>
                                 <h3><Link onClick={this.menuClick} to="/weddingparty">WEDDING PARTY</Link></h3>
-                                <h3><Link onClick={this.menuClick} to="/photos">PHOTOS</Link></h3>
+                                <h3><Link onClick={this.menuClick} to="/rsvp">RSVP</Link></h3>
                             </ul>
                         </div>
                     }

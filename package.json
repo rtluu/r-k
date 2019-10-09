@@ -5,9 +5,11 @@
   "homepage": "https://ourluubeginning",
   "dependencies": {
     "react": "^16.9.0",
+    "react-bootstrap-typeahead": "^3.4.7",
     "react-dom": "^16.9.0",
     "react-dom-confetti": "^0.1.1",
     "react-ga": "^2.6.0",
+    "react-google-sheets": "^0.4.0",
     "react-images": "^1.0.0",
     "react-photo-gallery": "^8.0.0",
     "react-router": "^5.1.1",

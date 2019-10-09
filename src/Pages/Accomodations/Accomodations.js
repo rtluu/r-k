@@ -107,7 +107,7 @@ const Accomodations = () => (
             <h3>MASON & ROOK</h3>
             <h3>1430 RHODE ISLAND AVE NW</h3>
             <h3>WASHINGTON, DC</h3>
-            <p>A block of rooms has been reserved at Mason & Rook in Washington, DC. You can use this link to make your reservation online and use code OURLUUBEGINNING. Or you can call 301-980-2630 to make your reservation and mention the Luu Wedding in order to receive a discounted rate.<br /><br />Be sure to book your hotel room by Friday, May 20, 2020 in order to receive the discount.</p>
+            <p>A block of rooms has been reserved at Mason & Rook in Washington, DC. You can use this link to make your reservation online and use code GARCIA-LUU. Or you can call 202-742-3100 to make your reservation and mention the Luu Wedding in order to receive a discounted rate.<br /><br />Be sure to book your hotel room by Friday, May 20, 2020 in order to receive the discount.</p>
         </div>
         <div className="separator" />
         <div className="accomodation-block">
