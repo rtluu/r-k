@@ -2,6 +2,7 @@ import React from "react";
 import ReactGA from 'react-ga';
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
+import Carousel from './Carousel';
 
 ReactGA.initialize('UA-148182167-1');
 ReactGA.pageview('/home');
@@ -49,6 +50,11 @@ const HomeStyled = styled.div`
                 }
             }
 
+            .carousel{
+                margin: 2.5rem auto 0 auto;
+                max-width: 28rem;
+            }
+
             .link{
                 color: #CCB5B5;
                 margin-left: 0.375rem;
@@ -83,7 +89,6 @@ const HomeStyled = styled.div`
 `;
 
 const homeHero = require("./images/home-hero.png");
-const proposalPic = require("./images/proposal-pic.png");
 const homeBottom = require("./images/home-bottom.png");
 
 const Home = () => (
@@ -104,7 +109,9 @@ const Home = () => (
             <h1>The Proposal</h1>
             <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a little poem that I recreated as a little memory
             <Link to="/proposal" className="link">here</Link>.</p>
-            <img src={proposalPic} className="proposal-pic" />
+            <div className="carousel">
+                <Carousel />
+            </div>
         </div>
         <h2 className="excited-message">We're excited to celebrate with you!</h2>
         <img src={homeBottom} />
