@@ -82,7 +82,7 @@ const Footer = () => (
             <a href="https://www.instagram.com/explore/tags/ourluubeginning/"><img src={instagram} id="instagram" /></a>
             <a href="mailto:kristinamgarcia2539@gmail.com"><img src={mail} id="mail" /></a>
         </div>
-        <p className="made-with">Made with <span className="heart">❤️</span>by Ryan</p>
+        <p className="made-with">Made with <span className="heart">❤️</span> by Ryan</p>
     </FooterStyled>
 );
 

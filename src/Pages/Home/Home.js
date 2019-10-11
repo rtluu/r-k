@@ -107,7 +107,7 @@ const Home = () => (
         </div>
         <div className="block">
             <h1>The Proposal</h1>
-            <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a little poem that I recreated as a little memory
+            <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
             <Link to="/proposal" className="link">here</Link>.</p>
             <div className="carousel">
                 <Carousel />
