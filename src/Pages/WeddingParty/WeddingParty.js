@@ -55,25 +55,6 @@ const WeddingPartyStyled = styled.div`
                 padding: 0; 
             }
 
-            .separator{
-                display: none;
-                height: 2px;
-                background: #EBEBEB;
-                position: relative;
-                margin-bottom: 3rem;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 20rem;
-    
-                @media (max-width: 50rem) {
-                    display: block;
-                }
-
-                &.second{
-                    margin-top: 3rem;
-                }
-            }
-
             .party-holder{
                 align-items: center;
                 display: flex;
@@ -83,10 +64,6 @@ const WeddingPartyStyled = styled.div`
 
                 @media (max-width: 50rem) {
                     margin: 0.5rem 0;
-                }
-
-                h2{
-                    margin-bottom: 1rem;
                 }
 
                 .spacer{
@@ -110,6 +87,41 @@ const WeddingPartyStyled = styled.div`
                     display: none;
                 }
             }
+        }
+
+        .officiant-block{
+            margin-bottom: 3rem;
+            @media (max-width: 50rem) {
+                margin-bottom: 2rem;
+            }
+        }
+
+        .separator{
+            display: none;
+            height: 2px;
+            background: #EBEBEB;
+            position: relative;
+            margin-bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20rem;
+
+            @media (max-width: 50rem) {
+                display: block;
+            }
+
+            &.second{
+                margin-top: 3rem;
+            }
+
+            &.officiant{
+                left: 0;
+                transform: translateX(0);
+            }
+        }
+
+        h2{
+            margin-bottom: 1rem;
         }
     }
         
@@ -150,13 +162,17 @@ const WeddingParty = () => (
 
                 <h2 className="spacer">Groomsmen</h2>
                 <h3>Ben Simon</h3>
-                <h3>Steven Elenberg</h3>
                 <h3>Josh Anderson</h3>
                 <h3>Diego Quispe</h3>
                 <h3>Ben Barone</h3>
                 <h3>Osebo Akhigbe</h3>
                 <h3>Sean Mahan</h3>
             </div>
+        </div>
+        <div className="separator officiant" />
+        <div className="officiant-block">
+            <h2>Officiant</h2>
+            <h3>Steven Elenberg</h3>
         </div>
 
     </WeddingPartyStyled >
