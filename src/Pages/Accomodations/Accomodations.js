@@ -42,35 +42,121 @@ const AccomodationsStyled = styled.div`
             display: flex;
             flex-direction: column;
             justify-content: center;
-            margin: 2rem 10% 5rem 10%;
+            width: 100%;
             @media (max-width: 50rem) {
                 margin: 1rem 10% 4rem 10%;;
             }
 
-            img{
-                margin: 3rem 0;
-                max-width: 35rem;
+            .hotel-block{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                margin: 4rem 0 6rem 0;
+                position: relative;
                 width: 100%;
+
                 @media (max-width: 50rem) {
-                    margin: 2rem 0;
+                    grid-template-columns: 100%;
+                    margin: 0rem 10% 0rem 10%;
                 }
 
-                &.skyline{
-                    filter: invert(100%);
+                .hotel-option{
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 2rem 3em;
+
+                    button{
+                        margin: 1.75rem 0;
+                        padding: 1rem 7.5rem;
+                    
+                        &:hover{
+                            background: white;
+                            color: #7C99A7;
+                        }
+                    }
+
+                    .img-holder{
+                        height: 0;
+                        margin-bottom: 1.5rem;
+                        padding-bottom: 66.66%;
+                        position: relative;
+                        width: 100%;
+
+                        @media (max-width: 50rem) {
+                            
+                        }
+
+                        img{
+                            bottom: 0px;
+                            left: 0px;
+                            position: absolute;
+                            right: 0px;
+                            top: 0px;
+                            width: 100%;
+                        }
+                    }
+                    
+                }
+
+                .divider{
+                    background: #ffffff;
+                    height: 100%;
+                    position: absolute;
+                    left: 50%;
+                    width: 0.125rem;
+                    transform: translateX(-50%);
+    
+                    @media (max-width: 50rem) {
+                        display: none;
+                    }
+                }
+            }
+            
+
+            .skyline{
+                margin: 0 0 3rem 0;
+                max-width: 35rem;
+                width: 100%;
+                filter: invert(100%);
+                @media (max-width: 50rem) {
+                    width: calc(100% - 4rem);
                 }
             }
 
+
+
             h3{
-                margin-bottom: 0.5rem;
+                margin-bottom: 0.375rem;
+
+                @media (max-width: 64rem) {
+                    margin-bottom: 0.375rem;
+                    font-size: 1.5rem;
+                }
+            }
+
+            h4{
+                margin-bottom: 0.25rem;
+
+                @media (max-width: 64rem) {
+                    margin-bottom: 0.1875rem;
+                    font-size: 1.25rem;
+                }
             }
 
             p{
-                text-align: left;
+                text-align: center;
                 margin: 2.5rem 0 0 0;
                 max-width: 35rem;
                 @media (max-width: 50rem) {
-                    margin: 1.5rem 0 0 0;
+                    margin: 1.5rem 3rem 0 3rem;
                 }
+            }
+
+            .link{
+                color: #CCB5B5;
+                margin-left: 0.375rem;
+                font-weight: 600;
             }
         }
         .separator{
@@ -87,7 +173,8 @@ const AccomodationsStyled = styled.div`
 
 const hotel = require("./images/hotel-front.svg");
 const plane = require("./images/airplane.svg");
-const hotelPic = require("./images/hotel-pic.png");
+const mason = require("./images/mason.png");
+const madison = require("./images/madison.png");
 const skyline = require("./images/skyline.svg");
 
 
@@ -102,12 +189,29 @@ const Accomodations = () => (
         </div>
 
         <div className="accomodation-block">
-            <h1>Hotel</h1>
-            <img src={hotelPic} />
-            <h3>MASON & ROOK</h3>
-            <h3>1430 RHODE ISLAND AVE NW</h3>
-            <h3>WASHINGTON, DC</h3>
-            <p>A block of rooms has been reserved at Mason & Rook in Washington, DC. You can use this<a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank">link</a> to make your reservation online. Or you can call 301-980-2630 to make your reservation and mention the Luu Wedding in order to receive a discounted rate.<br /><br />Be sure to book your hotel room by Friday, May 20, 2020 in order to receive the discount.</p>
+            <h1>Hotels</h1>
+            <p>A block of rooms has been reserved at these two hotels for your convenience.</p>
+            <div className="hotel-block">
+                <div className="hotel-option">
+                    <div className="img-holder"><img src={mason} /></div>
+                    <h3>MASON & ROOK</h3>
+                    <h3>1430 RHODE ISLAND AVE NW</h3>
+                    <h3>WASHINGTON, DC</h3>
+                    <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
+                    <h4>Phone Number: 202-742-3100</h4>
+                    <h4>Group Name: Garcia-Luu Wedding</h4>
+                </div>
+                <div className="divider" />
+                <div className="hotel-option">
+                    <div className="img-holder"><img src={madison} /></div>
+                    <h3>THE MADISON</h3>
+                    <h3>1177 15TH ST NW</h3>
+                    <h3>WASHINGTON, DC</h3>
+                    <a href="https://g.page/TheMadisonDC?share" target="_blank"><button>BOOK HERE</button></a>
+                    <h4>Phone Number: 202-862-1600</h4>
+                    <h4>Group Name: Garcia-Luu Wedding</h4>
+                </div>
+            </div>
         </div>
         <div className="separator" />
         <div className="accomodation-block">
@@ -118,7 +222,7 @@ const Accomodations = () => (
                 <h3>IAD - Dulles International Airport</h3>
                 <h3>BWI - Baltimore International Airport</h3>
             </div>
-            <p>All three of these airports are within range of the wedding and are arranged from closest to furthest. We recommend booking as early as you can to get good flights at good prices! Try checking out a flight aggregator like Google Flights.</p>
+            <p>All three of these airports are within range of the wedding and are ordered from closest to furthest. We recommend booking as early as you can to get good flights at good prices! Try checking out a flight aggregator like Google Flights.</p>
         </div>
 
     </AccomodationsStyled >

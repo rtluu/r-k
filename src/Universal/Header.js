@@ -140,11 +140,11 @@ const HeaderStyled = styled.header`
                 text-align: center;
 
                 h3{
-                    font-size: 3.5rem;
-                    margin: 1rem 0;
+                    font-size: 2.5rem;
+                    margin: 0.675rem 0;
                     @media (max-width: 50rem) {
-                        font-size: 2rem;
-                        margin: 0.5rem 0;
+                        font-size: 1.75rem;
+                        margin: 0.375rem 0;
                     }
                     a{
                         display: inline-block;

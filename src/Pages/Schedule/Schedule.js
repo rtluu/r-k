@@ -153,7 +153,7 @@ const Schedule = () => (
             <div className="divider" />
             <div className="location-block">
                 <img className="frisbee" src={frisbee} />
-                <h3>NATIONAL MALL</h3>
+                <h3>NATIONAL MALL LAWN</h3>
                 <h3>7th & MADISON</h3>
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/UmcXd6tPr4GXE8YS6" target="_blank"><button>MAP</button></a>
