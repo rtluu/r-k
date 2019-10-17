@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b2bda1e738e8d1f12464e22f5f71a105",
+    "revision": "586e1ff15fd2038d8322518eb8d9e244",
     "url": "/index.html"
   },
   {
-    "revision": "4923eb01cd897e045027",
-    "url": "/static/css/main.c4b2da56.chunk.css"
+    "revision": "6df13d817a17fdb367bf",
+    "url": "/static/css/main.583ad9dc.chunk.css"
   },
   {
-    "revision": "5e39e89dfac1ea1d91a4",
-    "url": "/static/js/2.f2ea5271.chunk.js"
+    "revision": "e9afc65b70cc368150c2",
+    "url": "/static/js/2.facc682c.chunk.js"
   },
   {
-    "revision": "4923eb01cd897e045027",
-    "url": "/static/js/main.3d2611be.chunk.js"
+    "revision": "6df13d817a17fdb367bf",
+    "url": "/static/js/main.5d3ca167.chunk.js"
   },
   {
     "revision": "2211144055d5089bca25",
@@ -104,10 +104,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hotel-front.88ffe1f6.svg"
   },
   {
-    "revision": "ca4c86904111a36512abb205ea3c3cac",
-    "url": "/static/media/hotel-pic.ca4c8690.png"
-  },
-  {
     "revision": "83fd1720ce464659bff782b3d074da8c",
     "url": "/static/media/instagram.83fd1720.svg"
   },
@@ -132,8 +128,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/love4.648a1309.png"
   },
   {
+    "revision": "a61464962829344eefca0b0d2c85ebf2",
+    "url": "/static/media/madison.a6146496.png"
+  },
+  {
     "revision": "36cb962138529dc4bbf6648372a34049",
     "url": "/static/media/mail.36cb9621.svg"
+  },
+  {
+    "revision": "ba77713e80a2eacb50496778dd512d03",
+    "url": "/static/media/mason.ba77713e.png"
   },
   {
     "revision": "c1abc9ce24a4566199a69f8089fd01e1",
