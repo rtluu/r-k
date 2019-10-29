@@ -98,19 +98,6 @@ const AccomodationsStyled = styled.div`
                     }
                     
                 }
-
-                .divider{
-                    background: #ffffff;
-                    height: 100%;
-                    position: absolute;
-                    left: 50%;
-                    width: 0.125rem;
-                    transform: translateX(-50%);
-    
-                    @media (max-width: 50rem) {
-                        display: none;
-                    }
-                }
             }
             
 
@@ -201,7 +188,6 @@ const Accomodations = () => (
                     <h4>Phone Number: 202-742-3100</h4>
                     <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
-                <div className="divider" />
                 <div className="hotel-option">
                     <div className="img-holder"><img src={madison} /></div>
                     <h3>THE MADISON</h3>
