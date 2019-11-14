@@ -76,6 +76,14 @@ const ScheduleStyled = styled.div`
                 h3{
                     margin-bottom: 1rem;
                 }
+
+                .attire{
+                    margin-top: 1.5rem;
+
+                    @media (max-width: 50rem) {
+                       font-size: 0.875rem;
+                    }
+                }
             }
 
             .divider{
@@ -148,7 +156,7 @@ const Schedule = () => (
             <div className="activity-block">
                 <h1>Ultimate Frisbee</h1>
                 <h3>THURSDAY, SEPTEMBER 10, 2020</h3>
-                <h4>6:00pm</h4>
+                <h4>6:30 pm</h4>
             </div>
             <div className="divider" />
             <div className="location-block">
@@ -165,7 +173,8 @@ const Schedule = () => (
             <div className="activity-block">
                 <h1>Wedding</h1>
                 <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
-                <h4>5:00pm</h4>
+                <h4>5:30 pm</h4>
+                <h4 className="attire">ATTIRE: BLACK TIE OPTIONAL</h4>
             </div>
             <div className="divider" />
             <div className="location-block">
