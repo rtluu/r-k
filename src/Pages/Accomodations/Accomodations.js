@@ -43,14 +43,15 @@ const AccomodationsStyled = styled.div`
             flex-direction: column;
             justify-content: center;
             width: 100%;
+            margin: 1rem 0 4rem 0;
             @media (max-width: 50rem) {
-                margin: 1rem 10% 4rem 10%;;
+                margin: 1rem 10% 4rem 10%;
             }
 
             .hotel-block{
                 display: grid;
                 grid-template-columns: 50% 50%;
-                margin: 4rem 0 6rem 0;
+                margin: 4rem 0 2rem 0;
                 position: relative;
                 width: 100%;
 
@@ -174,7 +175,17 @@ const Accomodations = () => (
             </div>
             <p>Some notes on getting here and booking your stay.</p>
         </div>
-
+        <div className="accomodation-block">
+            <h1>Travel</h1>
+            <img className="skyline" src={skyline} />
+            <div className="airports">
+                <h3>DCA - Reagan Nationl Airport</h3>
+                <h3>IAD - Dulles International Airport</h3>
+                <h3>BWI - Baltimore International Airport</h3>
+            </div>
+            <p>All three of these airports are within range of the wedding and are ordered from closest to furthest. We recommend booking as early as you can to get good flights at good prices! Try checking out a flight aggregator like Google Flights.</p>
+        </div>
+        <div className="separator" />
         <div className="accomodation-block">
             <h1>Hotels</h1>
             <p>A block of rooms has been reserved at these two hotels for your convenience.</p>
@@ -198,17 +209,6 @@ const Accomodations = () => (
                     <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
             </div>
-        </div>
-        <div className="separator" />
-        <div className="accomodation-block">
-            <h1>Travel</h1>
-            <img className="skyline" src={skyline} />
-            <div className="airports">
-                <h3>DCA - Reagan Nationl Airport</h3>
-                <h3>IAD - Dulles International Airport</h3>
-                <h3>BWI - Baltimore International Airport</h3>
-            </div>
-            <p>All three of these airports are within range of the wedding and are ordered from closest to furthest. We recommend booking as early as you can to get good flights at good prices! Try checking out a flight aggregator like Google Flights.</p>
         </div>
 
     </AccomodationsStyled >
