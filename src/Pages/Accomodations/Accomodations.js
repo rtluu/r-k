@@ -204,7 +204,7 @@ const Accomodations = () => (
                     <h3>THE MADISON</h3>
                     <h3>1177 15TH ST NW</h3>
                     <h3>WASHINGTON, DC</h3>
-                    <a href="https://g.page/TheMadisonDC?share" target="_blank"><button>BOOK HERE</button></a>
+                    <a href="https://book.passkey.com/go/KristinaAndRyansWedding" target="_blank"><button>BOOK HERE</button></a>
                     <h4>Phone Number: 202-862-1600</h4>
                     <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
