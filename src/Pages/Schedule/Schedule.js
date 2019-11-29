@@ -142,6 +142,7 @@ const calendar = require("./images/calendar.svg");
 const frisbee = require("./images/frisbee.svg");
 const clipboard = require("./images/clipboard.svg");
 const dinner = require("./images/dinner.svg");
+const drinks = require("./images/drinks.svg");
 const brideGroom = require("./images/bride-groom.svg");
 
 
@@ -183,6 +184,23 @@ const Schedule = () => (
                 <h3>1530 P ST NW</h3>
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/BDkbgJAd8X9PFSPM7" target="_blank"><button>MAP</button></a>
+            </div>
+        </div>
+
+        <div className="schedule-block">
+            <div className="separator" />
+            <div className="activity-block">
+                <h1>After Party</h1>
+                <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
+                <h4>11:00 pm - 12:30 am </h4>
+            </div>
+            <div className="divider" />
+            <div className="location-block">
+                <img className="drinks" src={drinks} />
+                <h3>MASON & ROOK ROOFTOP </h3>
+                <h3>1430 RHODE ISLAND AVE NW</h3>
+                <h3>WASHINGTON, DC</h3>
+                <a href="https://goo.gl/maps/TQnbH8ekBpoXpD9U8" target="_blank"><button>MAP</button></a>
             </div>
         </div>
     </ScheduleStyled >
