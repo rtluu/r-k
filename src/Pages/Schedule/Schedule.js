@@ -180,7 +180,7 @@ const Schedule = () => (
             <div className="divider" />
             <div className="location-block">
                 <img className="bride-groom" src={brideGroom} />
-                <h3>CARNEGIE INSTITUTE FOR SCIENCE</h3>
+                <h3>CARNEGIE INSTITUTION FOR SCIENCE</h3>
                 <h3>1530 P ST NW</h3>
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/BDkbgJAd8X9PFSPM7" target="_blank"><button>MAP</button></a>
