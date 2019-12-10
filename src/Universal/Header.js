@@ -7,19 +7,25 @@ const HeaderStyled = styled.header`
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 1.5rem 0;
+    margin: 1rem 0 1.5rem 0;
 
     @media (max-width: 50rem) {
         margin: 0.75rem 0;
     }
 
-    h1{
-        margin: 0.5rem 0 1.5rem 0;
+    .headline{
+        &:before{
+            content: 'Kristina +Ryan';
+            display: block;
+            position: relative;
+        }
 
         @media (max-width: 50rem) {
+            &:before{
+                content: 'Kristina + Ryan';
+            }
             font-family: "Cormorant Garamond", serif;
             font-size: 2rem;
-            margin: 0.25rem 0;
         }
     }
 
@@ -208,7 +214,7 @@ export default class Header extends Component {
         }
         return (
             <HeaderStyled>
-                <h1>Kristina & Ryan</h1>
+                <h1 className="headline"></h1>
                 <nav>
                     <Link onClick={this.menuClick} to="/">HOME</Link>
                     <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>

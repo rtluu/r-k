@@ -35,6 +35,10 @@ const AccomodationsStyled = styled.div`
                     filter: invert(100%);
                 }
             }
+
+            p{
+                font-style: italic;
+            }
         }
 
         .accomodation-block{
@@ -45,7 +49,7 @@ const AccomodationsStyled = styled.div`
             width: 100%;
             margin: 1rem 0 4rem 0;
             @media (max-width: 50rem) {
-                margin: 1rem 10% 4rem 10%;
+                margin: 0rem 10% 4rem 10%;
             }
 
             .hotel-block{
@@ -57,7 +61,7 @@ const AccomodationsStyled = styled.div`
 
                 @media (max-width: 50rem) {
                     grid-template-columns: 100%;
-                    margin: 1.5rem 10% 0rem 10%;
+                    margin: 0rem 10% 0rem 10%;
                 }
 
                 .hotel-option{
@@ -67,9 +71,18 @@ const AccomodationsStyled = styled.div`
                     justify-content: flex-start;
                     padding: 2rem 3em;
 
+                    @media (max-width: 50rem) {
+                        padding: 2.5rem 2em;
+                    }
+
                     button{
                         margin: 1.75rem 0;
                         padding: 1rem 7.5rem;
+                        white-space: nowrap;
+
+                        @media (max-width: 50rem) {
+                            padding: 1rem 6rem;
+                        }
                     
                         &:hover{
                             background: white;
@@ -151,7 +164,7 @@ const AccomodationsStyled = styled.div`
             height: 2px;
             background: #EBEBEB;
             position: relative;
-            margin: 1rem 0 4rem 0;
+            margin: 1rem 0 3rem 0;
             max-width: 35rem;
             width: 80%;
         }

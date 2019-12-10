@@ -20,25 +20,26 @@ const HomeStyled = styled.div`
         }
 
         .block{
-            margin: 5rem 0;
+            margin: 3.5rem 0;
             max-width: 36rem;
             width: 80%;
             @media (max-width: 50rem) {
-                margin: 3.5rem 0;
+                margin: 3rem 0;
                 width: 90%;
             }
 
-            h3{
-                margin: 2.5rem 0;
-                @media (max-width: 50rem) {
-                    margin: 2rem 0;
+            h1{
+                &.size-down{
+                    @media (max-width: 50rem) {
+                       font-size: 4rem;
+                    }
                 }
             }
 
             h2{
-                margin: 6.5rem 0 0 0;
+                margin: 3.5rem 0 0 0;
                 @media (max-width: 50rem) {
-                    margin: 5rem 0 0 0;
+                    margin: 2rem 0 0 0;
                 }
             }
 
@@ -46,7 +47,7 @@ const HomeStyled = styled.div`
                 text-align: left;
                 margin: 2.25rem 0 0 0;
                 @media (max-width: 50rem) {
-                    margin: 2.25rem 1rem 0 1rem;
+                    margin: 1.5rem 1rem 0 1rem;
                 }
             }
 
@@ -80,9 +81,9 @@ const HomeStyled = styled.div`
         }
 
         .excited-message{
-            margin: 2rem 0 9rem 0;
+            margin: 1rem 0 6rem 0;
             @media (max-width: 50rem) {
-               margin: 0rem 0 6rem 0;
+               margin: 0rem 0 4rem 0;
             }
         }
     }
@@ -96,13 +97,13 @@ const Home = () => (
         <img src={homeHero} />
         <div className="block">
             <h1>Kristina Garcia</h1>
-            <h3>AND</h3>
+            <h3>~ AND ~</h3>
             <h1>Ryan Luu</h1>
             <h2>September 12, 2020</h2>
         </div>
         <span className="divider" />
         <div className="block">
-            <h1>How We Met</h1>
+            <h1 className="size-down">HowWeMet</h1>
             <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
         </div>
         <div className="block">

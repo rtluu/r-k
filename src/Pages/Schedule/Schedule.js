@@ -60,6 +60,7 @@ const ScheduleStyled = styled.div`
     
                 @media (max-width: 50rem) {
                     display: block;
+                    margin-bottom: 4rem;
                 }
             }
 
@@ -135,6 +136,14 @@ const ScheduleStyled = styled.div`
     img{
         filter: invert(100%);
     }
+
+    h1{
+        &.size-down{
+            @media (max-width: 50rem) {
+               font-size: 4rem;
+            }
+        }
+    }
         
 `;
 
@@ -153,9 +162,8 @@ const Schedule = () => (
             <p>Here’s what to expect during our wedding weekend!</p>
         </div>
         <div className="schedule-block">
-            <div className="separator" />
             <div className="activity-block">
-                <h1>Ultimate Frisbee</h1>
+                <h1 className="size-down">UltimateFrisbee</h1>
                 <h3>THURSDAY, SEPTEMBER 10, 2020</h3>
                 <h4>6:30 pm</h4>
             </div>
@@ -190,7 +198,7 @@ const Schedule = () => (
         <div className="schedule-block">
             <div className="separator" />
             <div className="activity-block">
-                <h1>After Party</h1>
+                <h1 className="size-down">AfterParty</h1>
                 <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
                 <h4>11:00 pm - 12:30 am </h4>
             </div>

@@ -43,7 +43,7 @@ const WeddingPartyStyled = styled.div`
         .wedding-party-block{
             align-items: start;
             display: grid;
-            margin: 2rem 10% 5rem 10%;
+            margin: 2rem 10% 4rem 10%;
             grid-template-columns: 50% 50%;
             position: relative;
             padding: 2rem 0 1rem 0; 
@@ -67,7 +67,7 @@ const WeddingPartyStyled = styled.div`
                 }
 
                 .spacer{
-                    margin-top: 5rem;
+                    margin-top: 3.5rem;
 
                 }
                 h3{
@@ -92,7 +92,7 @@ const WeddingPartyStyled = styled.div`
         .officiant-block{
             margin-bottom: 3rem;
             @media (max-width: 50rem) {
-                margin-bottom: 2rem;
+                margin-bottom: 4rem;
             }
         }
 
@@ -143,7 +143,6 @@ const WeddingParty = () => (
         </div>
 
         <div className="wedding-party-block">
-            <div className="separator" />
             <div className="party-holder">
                 <h2>Maid of Honor</h2>
                 <h3>Jennie Remington</h3>
