@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecce36ce97aa760d928d4235a13d11ab",
+    "revision": "6c9d7997b95c125501f2637ce2d7de80",
     "url": "/index.html"
   },
   {
-    "revision": "23d83566d74a7265c6c9",
-    "url": "/static/css/main.583ad9dc.chunk.css"
+    "revision": "ff8631e519fc1509e6d3",
+    "url": "/static/css/main.0269ec95.chunk.css"
   },
   {
     "revision": "a57f0ffe8766533c1f49",
     "url": "/static/js/2.05f117ae.chunk.js"
   },
   {
-    "revision": "23d83566d74a7265c6c9",
-    "url": "/static/js/main.63d61d90.chunk.js"
+    "revision": "ff8631e519fc1509e6d3",
+    "url": "/static/js/main.6ca79fb6.chunk.js"
   },
   {
     "revision": "2211144055d5089bca25",
     "url": "/static/js/runtime~main.260cd029.js"
-  },
-  {
-    "revision": "4dcd24018052b2f471b9adf0239898d4",
-    "url": "/static/media/LeslieDawn.4dcd2401.woff"
   },
   {
     "revision": "5223a046a807dfa3614b70727c24e1ec",
@@ -34,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ca07b2a5f7d4ae28cb88575acdb8b809",
     "url": "/static/media/bouquet2.ca07b2a5.png"
+  },
+  {
+    "revision": "98adc7f8fae2958ad4e5a779eccdeca8",
+    "url": "/static/media/boutinela.98adc7f8.woff"
   },
   {
     "revision": "24b788ddc591585d764c2b69969eccbc",
