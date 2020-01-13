@@ -195,7 +195,7 @@ const Schedule = () => (
             </div>
         </div>
 
-        <div className="schedule-block">
+        {/* <div className="schedule-block">
             <div className="separator" />
             <div className="activity-block">
                 <h1 className="size-down">AfterParty</h1>
@@ -210,7 +210,7 @@ const Schedule = () => (
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/TQnbH8ekBpoXpD9U8" target="_blank"><button>MAP</button></a>
             </div>
-        </div>
+        </div> */}
     </ScheduleStyled >
 );
 
