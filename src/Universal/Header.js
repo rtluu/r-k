@@ -13,6 +13,16 @@ const HeaderStyled = styled.header`
         margin: 0.75rem 0;
     }
 
+    .hashtag{
+        align-self: flex-end;
+        font-size: 1.25rem;
+        padding-right: 1rem;
+        position: absolute;
+        @media (max-width: 50rem) {
+            display: none;
+        }
+    }
+
     .headline{
         &:before{
             content: 'Kristina +Ryan';
@@ -214,6 +224,7 @@ export default class Header extends Component {
         }
         return (
             <HeaderStyled>
+                <h4 className="hashtag">#OURLUUBEGINNING</h4>
                 <h1 className="headline"></h1>
                 <nav>
                     <Link onClick={this.menuClick} to="/">HOME</Link>

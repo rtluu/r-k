@@ -131,6 +131,12 @@ const ScheduleStyled = styled.div`
                 }
             }
         }
+
+        .notice{
+            font-style: italic;
+            margin: 0.5rem 0 3rem 0;
+            max-width: 80%;
+        }
     }
 
     img{
@@ -193,6 +199,9 @@ const Schedule = () => (
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/BDkbgJAd8X9PFSPM7" target="_blank"><button>MAP</button></a>
             </div>
+        </div>
+        <div className="notice">
+            <h4>*Although we love your little ones, this is an adult only affair.</h4>
         </div>
 
         {/* <div className="schedule-block">

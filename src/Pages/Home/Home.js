@@ -36,10 +36,31 @@ const HomeStyled = styled.div`
                 }
             }
 
-            h2{
+            .wedding-date{
+                font-size: 2.125rem;
                 margin: 3.5rem 0 0 0;
                 @media (max-width: 50rem) {
+                    font-size: 1.875rem;
                     margin: 2rem 0 0 0;
+                }
+            }
+
+            .date{
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem;
+                @media (max-width: 50rem) {
+                    font-size: 1.25rem;
+                    margin-bottom: 0.25rem;
+                }
+            }
+
+            .hashtag{
+                display: none;
+                font-size: 1.125rem;
+                position: relative;
+                @media (max-width: 50rem) {
+                    display: block;
+                    margin: 1.5rem 0 0.75rem 0;
                 }
             }
 
@@ -99,15 +120,18 @@ const Home = () => (
             <h1>Kristina Garcia</h1>
             <h3>~ AND ~</h3>
             <h1>Ryan Luu</h1>
-            <h2>September 12, 2020</h2>
+            <h3 className="wedding-date">September 12, 2020</h3>
+            <h4 className="hashtag">#OURLUUBEGINNING</h4>
         </div>
         <span className="divider" />
         <div className="block">
             <h1 className="size-down">HowWeMet</h1>
+            <h5 className="date">April 16, 2016</h5>
             <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
         </div>
         <div className="block">
             <h1>The Proposal</h1>
+            <h5 className="date">September 22, 2019</h5>
             <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
             <Link to="/proposal" className="link">here</Link>.</p>
             <div className="carousel">
