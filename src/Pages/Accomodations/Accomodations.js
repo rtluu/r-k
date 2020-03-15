@@ -75,6 +75,10 @@ const AccomodationsStyled = styled.div`
                         padding: 2.5rem 2em;
                     }
 
+                    .formerly{
+                        font-style: italic;
+                    }
+
                     button{
                         margin: 1.75rem 0;
                         padding: 1rem 7.5rem;
@@ -205,10 +209,12 @@ const Accomodations = () => (
             <div className="hotel-block">
                 <div className="hotel-option">
                     <div className="img-holder"><img src={mason} /></div>
-                    <h3>MASON & ROOK</h3>
+                    <h3>VICEROY WASHINGTON DC</h3>
+                    <h4 className="formerly">(Formerly Mason & Rook)</h4>
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
+                    <h4>Link ↑ has discount code already applied</h4>
                     <h4>Phone Number: 202-742-3100</h4>
                     <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
