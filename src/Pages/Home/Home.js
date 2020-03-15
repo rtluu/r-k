@@ -28,6 +28,15 @@ const HomeStyled = styled.div`
                 width: 90%;
             }
 
+            &.gallery{
+                width: 100%;
+            }
+
+            .block-inner{
+                margin 0 auto;
+                width: 90%;
+            }
+
             h1{
                 &.size-down{
                     @media (max-width: 50rem) {
@@ -74,7 +83,7 @@ const HomeStyled = styled.div`
 
             .carousel{
                 margin: 2.5rem auto 0 auto;
-                max-width: 22.5rem;
+                max-width: calc(100% - 106px);
             }
 
             .link{
@@ -129,11 +138,13 @@ const Home = () => (
             <h5 className="date">April 16, 2016</h5>
             <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
         </div>
-        <div className="block">
-            <h1>The Proposal</h1>
-            <h5 className="date">September 22, 2019</h5>
-            <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
-            <Link to="/proposal" className="link">here</Link>.</p>
+        <div className="block gallery">
+            <div className="block-inner">
+                <h1>The Proposal</h1>
+                <h5 className="date">September 22, 2019</h5>
+                <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
+                <Link to="/proposal" className="link">here</Link>.</p>
+            </div>
             <div className="carousel">
                 <Carousel />
             </div>
