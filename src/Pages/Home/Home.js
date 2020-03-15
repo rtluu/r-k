@@ -74,7 +74,7 @@ const HomeStyled = styled.div`
 
             .carousel{
                 margin: 2.5rem auto 0 auto;
-                max-width: 28rem;
+                max-width: 22.5rem;
             }
 
             .link{
