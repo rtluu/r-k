@@ -29,13 +29,11 @@ const HomeStyled = styled.div`
             }
 
             &.gallery{
-                width: 100%;
+                @media (max-width: 50rem) {
+                    margin: 3rem 0 0 0;
+                } 
             }
 
-            .block-inner{
-                margin 0 auto;
-                width: 90%;
-            }
 
             h1{
                 &.size-down{
@@ -81,11 +79,6 @@ const HomeStyled = styled.div`
                 }
             }
 
-            .carousel{
-                margin: 2.5rem auto 0 auto;
-                max-width: calc(100% - 106px);
-            }
-
             .link{
                 color: #CCB5B5;
                 margin-left: 0.375rem;
@@ -96,6 +89,17 @@ const HomeStyled = styled.div`
                 border-radius: 0.5rem;
                 margin: 2rem 0;
                 max-width: 24rem;
+            }
+        }
+
+        .carousel{
+            margin: 0rem auto 3rem auto;
+            max-width: calc(36rem - 106px);
+            width: 80%;
+
+            @media (max-width: 50rem) {
+                margin: 2.5rem auto 3rem auto;
+                max-width: calc(100% - 106px);
             }
         }
 
@@ -139,15 +143,13 @@ const Home = () => (
             <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
         </div>
         <div className="block gallery">
-            <div className="block-inner">
-                <h1>The Proposal</h1>
-                <h5 className="date">September 22, 2019</h5>
-                <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
-                <Link to="/proposal" className="link">here</Link>.</p>
-            </div>
-            <div className="carousel">
-                <Carousel />
-            </div>
+            <h1>The Proposal</h1>
+            <h5 className="date">September 22, 2019</h5>
+            <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
+            <Link to="/proposal" className="link">here</Link>.</p>
+        </div>
+        <div className="carousel">
+            <Carousel />
         </div>
         <h2 className="excited-message">We're excited to celebrate with you!</h2>
         <img src={homeBottom} />
