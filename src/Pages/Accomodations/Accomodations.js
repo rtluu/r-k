@@ -52,6 +52,17 @@ const AccomodationsStyled = styled.div`
                 margin: 0rem 10% 4rem 10%;
             }
 
+            .italic{
+                font-style: italic;
+
+                &.reserve{
+                    margin-top: 0.5rem;
+                    @media (max-width: 50rem) {
+                        margin-top: 0.375rem;
+                    }
+                }
+            }
+
             .hotel-block{
                 display: grid;
                 grid-template-columns: 50% 50%;
@@ -73,10 +84,6 @@ const AccomodationsStyled = styled.div`
 
                     @media (max-width: 50rem) {
                         padding: 2.5rem 2em;
-                    }
-
-                    .formerly{
-                        font-style: italic;
                     }
 
                     button{
@@ -206,11 +213,12 @@ const Accomodations = () => (
         <div className="accomodation-block">
             <h1>Hotels</h1>
             <p>A block of rooms has been reserved at these two hotels for your convenience.</p>
+            <h4 className="reserve italic">Reserve by August 12th</h4>
             <div className="hotel-block">
                 <div className="hotel-option">
                     <div className="img-holder"><img src={mason} /></div>
                     <h3>VICEROY WASHINGTON DC</h3>
-                    <h4 className="formerly">(Formerly Mason & Rook)</h4>
+                    <h4 className="italic">(Formerly Mason & Rook)</h4>
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
