@@ -145,9 +145,18 @@ const ScheduleStyled = styled.div`
 
     h1{
         &.size-down{
+
+            @media (max-width: 70rem) {
+                font-size: 3.25rem;
+             }
+
             @media (max-width: 50rem) {
-               font-size: 4rem;
+               font-size: 3rem;
             }
+
+            @media (max-width: 35rem) {
+                font-size: 2.5rem;
+             }
         }
     }
         

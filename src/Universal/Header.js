@@ -32,6 +32,43 @@ const HeaderStyled = styled.header`
         @media (max-width: 50rem) {
             font-size: 3.5rem;
         }
+
+        @media (max-width: 35rem) {
+            margin-left: -1.0675rem;
+        }
+        
+        .name{
+            &#kristina{
+                &:before{
+                    content: "Kristina"
+                }
+            }
+
+            &#ryan{
+                &:before{
+                    content: "Ryan"
+                }
+            }
+
+            @media (max-width: 35rem) {
+                &#kristina{
+                    &:before{
+                        content: "K"
+                    }
+                }
+    
+                &#ryan{
+                    &:before{
+                        content: "R"
+                    }
+                }
+    
+            }
+        }
+
+        .plus{
+            margin: 0 0.25rem 0 1.25rem;
+        }
     }
 
     nav{
@@ -220,7 +257,7 @@ export default class Header extends Component {
         return (
             <HeaderStyled>
                 <h4 className="hashtag">#OURLUUBEGINNING</h4>
-                <h1 className="headline">Kristina <span className="and">+</span> Ryan</h1>
+                <h1 className="headline"><span className="name" id="kristina"></span> <span className="plus">+</span> <span className="name" id="ryan"></span></h1>
                 <nav>
                     <Link onClick={this.menuClick} to="/">HOME</Link>
                     <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>
