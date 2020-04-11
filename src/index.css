@@ -1,4 +1,11 @@
 @font-face {
+  font-family: "AmeliaGiovani";
+  src: url("./fonts/AmeliaGiovani.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Boutinela";
   src: url("./fonts/boutinela.woff") format("woff"); /* Modern Browsers */
   font-weight: normal;
@@ -24,7 +31,17 @@ h1,h2,h3,h4,h5,h6,p,button,a{
 }
 
 h1,h2{
+  font-family: "AmeliaGiovani", sans-serif;
+}
+
+.and{
   font-family: "Boutinela", sans-serif;
+  font-size: 6rem;
+}
+
+.h3-cursive{
+  font-family: "AmeliaGiovani", sans-serif;
+  font-size: 2rem;
 }
 
 button{
@@ -38,11 +55,11 @@ button{
 }
 
 h1{
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 h2{
-  font-size: 4.5rem;
+  font-size: 3.5rem;
 }
 
 h3{

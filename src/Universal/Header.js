@@ -15,7 +15,7 @@ const HeaderStyled = styled.header`
 
     .hashtag{
         align-self: flex-end;
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         padding-right: 1rem;
         position: absolute;
         @media (max-width: 50rem) {
@@ -25,17 +25,12 @@ const HeaderStyled = styled.header`
 
     .headline{
         &:before{
-            content: 'Kristina +Ryan';
             display: block;
             position: relative;
         }
 
         @media (max-width: 50rem) {
-            &:before{
-                content: 'Kristina + Ryan';
-            }
-            font-family: "Cormorant Garamond", serif;
-            font-size: 2rem;
+            font-size: 3.5rem;
         }
     }
 
@@ -225,7 +220,7 @@ export default class Header extends Component {
         return (
             <HeaderStyled>
                 <h4 className="hashtag">#OURLUUBEGINNING</h4>
-                <h1 className="headline"></h1>
+                <h1 className="headline">Kristina <span className="and">+</span> Ryan</h1>
                 <nav>
                     <Link onClick={this.menuClick} to="/">HOME</Link>
                     <Link onClick={this.menuClick} to="/schedule">SCHEDULE</Link>

@@ -35,14 +35,6 @@ const HomeStyled = styled.div`
             }
 
 
-            h1{
-                &.size-down{
-                    @media (max-width: 50rem) {
-                       font-size: 4rem;
-                    }
-                }
-            }
-
             .wedding-date{
                 font-size: 2.125rem;
                 margin: 3.5rem 0 0 0;
@@ -114,10 +106,10 @@ const HomeStyled = styled.div`
             }
         }
 
-        .excited-message{
-            margin: 1rem 0 6rem 0;
+        .home-bottom{
+            margin: 5rem 0 0 0;
             @media (max-width: 50rem) {
-               margin: 0rem 0 4rem 0;
+               margin: 4rem 0 0 0;
             }
         }
     }
@@ -130,20 +122,20 @@ const Home = () => (
     <HomeStyled className="main">
         <img src={homeHero} />
         <div className="block">
-            <h1>Kristina Garcia</h1>
-            <h3>~ AND ~</h3>
-            <h1>Ryan Luu</h1>
+            <h2>Kristina Garcia</h2>
+            <h3 className="h3-cursive">and</h3>
+            <h2>Ryan Luu</h2>
             <h3 className="wedding-date">September 12, 2020</h3>
             <h4 className="hashtag">#OURLUUBEGINNING</h4>
         </div>
         <span className="divider" />
         <div className="block">
-            <h1 className="size-down">HowWeMet</h1>
+            <h2>HowWeMet</h2>
             <h5 className="date">April 16, 2016</h5>
             <p>We met at an event where Kristina was the catering manager and I was the greenscreen photographer. Kristina will tell you that I pursued her the whole night, but the truth is she was doing everything in her power to get me to ask her out, including ‘pulling linens’ right by my gear while I was on my way out. I asked her to dinner and she played hard to get for months before I finally won her over.</p>
         </div>
         <div className="block gallery">
-            <h1>The Proposal</h1>
+            <h2>The Proposal</h2>
             <h5 className="date">September 22, 2019</h5>
             <p>A trip to Longwood Gardens in Pennsylvania was the scene for our union. Hit the knee and said a poem that I recreated as a little memory
             <Link to="/proposal" className="link">here</Link>.</p>
@@ -151,8 +143,8 @@ const Home = () => (
         <div className="carousel">
             <Carousel />
         </div>
-        <h2 className="excited-message">We're excited to celebrate with you!</h2>
-        <img src={homeBottom} />
+        <h3 className="h3-cursive">We're excited to celebrate with you!</h3>
+        <img className="home-bottom" src={homeBottom} />
     </HomeStyled >
 );
 
