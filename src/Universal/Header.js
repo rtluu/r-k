@@ -93,7 +93,7 @@ const HeaderStyled = styled.header`
         right: 0.75rem;
         top: 1.25rem;
         transition: all 0.1s;
-        z-index: 2;
+        z-index: 9;
 
         &.show{
             display: inline-block;
@@ -116,7 +116,7 @@ const HeaderStyled = styled.header`
             position: relative;
             height: 1.875rem;
             width: 2.75rem;
-            z-index: 3;
+            z-index: 10;
            
             &.x{
                 .line-holder{
