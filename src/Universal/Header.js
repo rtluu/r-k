@@ -67,7 +67,9 @@ const HeaderStyled = styled.header`
         }
 
         .plus{
-            margin: 0 0.25rem 0 1.25rem;
+            @media (max-width: 35rem) {
+                margin: 0 0.25rem 0 1.25rem;
+            }    
         }
     }
 
