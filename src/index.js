@@ -4,6 +4,7 @@ import * as serviceWorker from './serviceWorker'
 import { HashRouter, Link, Route } from 'react-router-dom';
 import { createBrowserHistory } from "history"
 import './index.css';
+import Notice from "./Universal/Notice";
 import Header from "./Universal/Header";
 import Footer from "./Universal/Footer";
 import Home from "./Pages/Home/Home";
@@ -22,6 +23,7 @@ ReactDOM.render(
     <HashRouter >
         <Route component={ScrollToTop} />
         <div>
+            <Notice />
             <Header />
             <Route exact path="/" component={Home} />
             <Route path="/schedule" component={Schedule} />
