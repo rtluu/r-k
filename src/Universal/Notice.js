@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import styled from "styled-components";
 
 const NoticeStyled = styled.div`
-    background: #EB9486;
+    background: #E5BFB6;
     margin: 0;
     padding: 20px 0;
 
     .notice-text{
+        color: #554D4A;
         font-size: 18px;
         margin: 0 auto;
         max-width: 900px;
@@ -34,7 +35,7 @@ export default class Notice extends Component {
 
         return (
             <NoticeStyled>
-                <p className="notice-text">We're continuing to monitor the Covid-19 pandemic and what that might mean for our special day. As of now, we're still on track for September 12, 2020, but please continue to check back for updates.</p>
+                <p className="notice-text">In order to prioritize everyone's health and wellbeing, we are postponing our wedding. We look forward to celebrating with everyone on our new date, <b>September 11th, 2021</b>. Please continue to check this site for updates!</p>
             </NoticeStyled >
         )
     }

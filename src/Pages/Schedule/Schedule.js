@@ -179,7 +179,7 @@ const Schedule = () => (
         <div className="schedule-block">
             <div className="activity-block">
                 <h1 className="size-down">UltimateFrisbee</h1>
-                <h3>THURSDAY, SEPTEMBER 10, 2020</h3>
+                <h3>THURSDAY, SEPTEMBER 9, 2021</h3>
                 <h4>6:30 pm</h4>
             </div>
             <div className="divider" />
@@ -196,7 +196,7 @@ const Schedule = () => (
             <div className="separator" />
             <div className="activity-block">
                 <h1>Wedding</h1>
-                <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
+                <h3>SATURDAY, SEPTEMBER 11, 2021</h3>
                 <h4>5:30 pm</h4>
                 <h4 className="attire">ATTIRE: BLACK TIE OPTIONAL</h4>
             </div>
@@ -217,7 +217,7 @@ const Schedule = () => (
             <div className="separator" />
             <div className="activity-block">
                 <h1 className="size-down">AfterParty</h1>
-                <h3>SATURDAY, SEPTEMBER 12, 2020</h3>
+                <h3>SATURDAY, SEPTEMBER 11, 2021</h3>
                 <h4>11:00 pm - 12:30 am </h4>
             </div>
             <div className="divider" />

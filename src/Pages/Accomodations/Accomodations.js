@@ -213,7 +213,7 @@ const Accomodations = () => (
         <div className="accomodation-block">
             <h1>Hotels</h1>
             <p>A block of rooms has been reserved at these two hotels for your convenience.</p>
-            <h4 className="reserve italic">Reserve by August 12th</h4>
+            <h4 className="reserve italic">Reserve by August 12th, 2021</h4>
             <div className="hotel-block">
                 <div className="hotel-option">
                     <div className="img-holder"><img src={mason} /></div>
@@ -221,20 +221,24 @@ const Accomodations = () => (
                     <h4 className="italic">(Formerly Mason & Rook)</h4>
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
-                    <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
+                    <br />
+                    <h4>Booking will be available shortly</h4>
+                    {/* <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
                     <h4>Link ↑ has discount code already applied</h4>
                     <h4>Phone Number: 202-742-3100</h4>
-                    <h4>Group Name: Garcia-Luu Wedding</h4>
+                    <h4>Group Name: Garcia-Luu Wedding</h4> */}
                 </div>
                 <div className="hotel-option">
                     <div className="img-holder"><img src={madison} /></div>
                     <h3>THE MADISON</h3>
                     <h3>1177 15TH ST NW</h3>
                     <h3>WASHINGTON, DC</h3>
-                    <a href="https://book.passkey.com/go/KristinaAndRyansWedding" target="_blank"><button>BOOK HERE</button></a>
+                    <br />
+                    <h4>Booking will be available on 9/11/2020</h4>
+                    {/* <a href="https://book.passkey.com/go/KristinaAndRyansWedding" target="_blank"><button>BOOK HERE</button></a>
                     <h4>Booking online, use code: "KRW"</h4>
                     <h4>Phone Number: 1-800-774-1500</h4>
-                    <h4>Group Name: Garcia-Luu Wedding</h4>
+                    <h4>Group Name: Garcia-Luu Wedding</h4> */}
                 </div>
             </div>
         </div>

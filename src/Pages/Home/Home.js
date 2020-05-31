@@ -125,7 +125,7 @@ const Home = () => (
             <h2>Kristina Garcia</h2>
             <h3 className="h3-cursive">and</h3>
             <h2>Ryan Luu</h2>
-            <h3 className="wedding-date">September 12, 2020</h3>
+            <h3 className="wedding-date">September 11, 2021</h3>
             <h4 className="hashtag">#OURLUUBEGINNING</h4>
         </div>
         <span className="divider" />
