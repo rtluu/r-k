@@ -35,7 +35,7 @@ export default class Notice extends Component {
 
         return (
             <NoticeStyled>
-                <p className="notice-text">In order to prioritize everyone's health and wellbeing, we are postponing our wedding. We look forward to celebrating with everyone on our new date, <b>September 11th, 2021</b>. Please continue to check this site for updates!</p>
+                <p className="notice-text">In order to prioritize everyone's health and wellbeing, we are postponing our wedding. We look forward to celebrating with everyone on our new date, <b>September 11, 2021</b>. Please continue to check this site for updates!</p>
             </NoticeStyled >
         )
     }
