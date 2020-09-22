@@ -222,11 +222,10 @@ const Accomodations = () => (
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <br />
-                    <h4>Booking link available September 2020</h4>
-                    {/* <a href="https://be.synxis.com/?adult=1&arrive=2020-09-11&chain=1003&child=0&currency=USD&depart=2020-09-13&group=200911GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
+                    <a href="https://be.synxis.com/?Hotel=9028&Chain=1003&arrive=10/10/2021&depart=10/12/2021&adult=1&child=0&group=210910GARC" target="_blank"><button>BOOK HERE</button></a>
                     <h4>Link ↑ has discount code already applied</h4>
                     <h4>Phone Number: 202-742-3100</h4>
-                    <h4>Group Name: Garcia-Luu Wedding</h4> */}
+                    <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
                 <div className="hotel-option">
                     <div className="img-holder"><img src={madison} /></div>
