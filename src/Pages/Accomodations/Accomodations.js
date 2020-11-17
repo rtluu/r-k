@@ -233,11 +233,10 @@ const Accomodations = () => (
                     <h3>1177 15TH ST NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <br />
-                    <h4>Booking link available September 2020</h4>
-                    {/* <a href="https://book.passkey.com/go/KristinaAndRyansWedding" target="_blank"><button>BOOK HERE</button></a>
-                    <h4>Booking online, use code: "KRW"</h4>
+                    <a href="https://book.passkey.com/go/KristinaRyanWedding" target="_blank"><button>BOOK HERE</button></a>
+                    <h4>Link ↑ has discount code already applied</h4>
                     <h4>Phone Number: 1-800-774-1500</h4>
-                    <h4>Group Name: Garcia-Luu Wedding</h4> */}
+                    <h4>Group Name: Garcia-Luu Wedding</h4>
                 </div>
             </div>
         </div>

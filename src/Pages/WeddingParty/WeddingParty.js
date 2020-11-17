@@ -152,6 +152,7 @@ const WeddingParty = () => (
                 <h3>Jessica Whisnand</h3>
                 <h3>Kandace Levy</h3>
                 <h3>Julie Taguding</h3>
+                <h3>Miranda Lopez</h3>
             </div>
             <div className="divider" />
             <div className="separator second" />
