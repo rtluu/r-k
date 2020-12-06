@@ -185,7 +185,7 @@ const AccomodationsStyled = styled.div`
 
 const hotel = require("./images/hotel-front.svg");
 const plane = require("./images/airplane.svg");
-const mason = require("./images/mason.png");
+const viceroy = require("./images/viceroy.png");
 const madison = require("./images/madison.png");
 const skyline = require("./images/skyline.svg");
 
@@ -216,13 +216,13 @@ const Accomodations = () => (
             <h4 className="reserve italic">Reserve by August 12, 2021</h4>
             <div className="hotel-block">
                 <div className="hotel-option">
-                    <div className="img-holder"><img src={mason} /></div>
+                    <div className="img-holder"><img src={viceroy} /></div>
                     <h3>VICEROY WASHINGTON DC</h3>
-                    <h4 className="italic">(Formerly Mason & Rook)</h4>
+                    <h4 className="italic">(Formerly viceroy & Rook)</h4>
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <br />
-                    <a href="https://be.synxis.com/?Hotel=9028&Chain=1003&arrive=10/10/2021&depart=10/12/2021&adult=1&child=0&group=210910GARC" target="_blank"><button>BOOK HERE</button></a>
+                    <a href="https://be.synxis.com/?adult=1&arrive=2021-09-10&chain=1003&child=0&currency=USD&depart=2021-09-12&group=210910GARC&hotel=9028&level=hotel&locale=en-US&rooms=1" target="_blank"><button>BOOK HERE</button></a>
                     <h4>Link ↑ has discount code already applied</h4>
                     <h4>Phone Number: 202-742-3100</h4>
                     <h4>Group Name: Garcia-Luu Wedding</h4>
