@@ -223,7 +223,7 @@ const Schedule = () => (
             <div className="divider" />
             <div className="location-block">
                 <img className="drinks" src={drinks} />
-                <h3>MASON & ROOK ROOFTOP </h3>
+                <h3>VICEROY</h3>
                 <h3>1430 RHODE ISLAND AVE NW</h3>
                 <h3>WASHINGTON, DC</h3>
                 <a href="https://goo.gl/maps/TQnbH8ekBpoXpD9U8" target="_blank"><button>MAP</button></a>

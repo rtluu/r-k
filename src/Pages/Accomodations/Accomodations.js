@@ -218,7 +218,7 @@ const Accomodations = () => (
                 <div className="hotel-option">
                     <div className="img-holder"><img src={viceroy} /></div>
                     <h3>VICEROY WASHINGTON DC</h3>
-                    <h4 className="italic">(Formerly viceroy & Rook)</h4>
+                    <h4 className="italic">(Formerly Mason & Rook)</h4>
                     <h3>1430 RHODE ISLAND AVE NW</h3>
                     <h3>WASHINGTON, DC</h3>
                     <br />
