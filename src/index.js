@@ -14,6 +14,9 @@ import Accomodations from './Pages/Accomodations/Accomodations';
 import WeddingParty from './Pages/WeddingParty/WeddingParty';
 import PhotoCollage from './Pages/PhotoCollage/PhotoCollage';
 
+/*Cancelled Wedding*/
+import Cancel from "./Pages/Cancel/Cancel";
+
 const ScrollToTop = () => {
     window.scrollTo(0, 0);
     return null;
@@ -23,14 +26,15 @@ ReactDOM.render(
     <HashRouter >
         <Route component={ScrollToTop} />
         <div>
-            <Notice />
-            <Header />
-            <Route exact path="/" component={Home} />
+            <Cancel />
+            {/* <Notice /> */}
+            {/* <Header /> */}
+            {/* <Route exact path="/" component={Home} />
             <Route path="/schedule" component={Schedule} />
             <Route path="/proposal" component={Proposal} />
             <Route path="/accomodations" component={Accomodations} />
             <Route path="/weddingparty" component={WeddingParty} />
-            <Route path="/photos" component={PhotoCollage} />
+            <Route path="/photos" component={PhotoCollage} /> */}
             <Footer />
         </div>
     </HashRouter>

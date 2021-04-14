@@ -1,13 +1,19 @@
-@font-face {
+/* @font-face {
   font-family: "AmeliaGiovani";
-  src: url("./fonts/AmeliaGiovani.woff") format("woff"); /* Modern Browsers */
+  src: url("./fonts/AmeliaGiovani.woff") format("woff");
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: "Boutinela";
+  src: url("./fonts/boutinela.woff") format("woff"); 
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
-  font-family: "Boutinela";
-  src: url("./fonts/boutinela.woff") format("woff"); /* Modern Browsers */
+  font-family: "Atlas";
+  src: url("./fonts/AtlasGrotesk-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +21,7 @@
 body {
   background: #7C99A7;
   margin: 0;
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Atlas", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -30,7 +36,7 @@ h1,h2,h3,h4,h5,h6,p,button,a{
   color: white;
 }
 
-h1,h2{
+/* h1,h2{
   font-family: "AmeliaGiovani", sans-serif;
 }
 
@@ -48,7 +54,7 @@ h1,h2{
   font-family: "AmeliaGiovani", sans-serif;
   font-size: 1.875rem;
   margin-bottom: 0.25rem;
-}
+} */
 
 button{
   font-size: 1rem;
